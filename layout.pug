@@ -1,0 +1,93 @@
+-var menu = [{name: 'მთავარი', link: ''},{name: 'ცენტრის შესახებ', link: ''},{name: 'სიახლეები', link: ''},{name: 'პროექტები', link: ''},{name: 'მულტიმედია', link: ''},{name: 'საჯარო ინფორმაცია', link: ''},{name: 'ბავშვთა უფლებები', link: ''},{name: 'კონტაქტი', link: ''}];
+
+doctype
+html
+    head
+        title asd
+        meta(charset="utf-8")
+    body
+        header
+            .wrapper
+                .top
+                    .shshm
+                        .contrast
+                            | კონტრასტი
+                            ul
+                                li#contrast1
+                                li#contrast2
+                                li#contrast3
+                                li#contrast4
+                                li#contrast5
+                        .layout
+                            | განლაგება
+                            ul
+                                li#scale
+                                li#shrink
+                        .font
+                            | შრიფტი
+                            ul
+                                li#increase
+                                li#normal
+                                li#decrease
+                    .lang
+                        a(href="") ქართული
+                        a(href="") ENGLISH
+                .mid
+                    a.logo
+                        img(src="" alt="logo")
+                    form
+                        input(type="text" placeholder="ძიება")
+                        button
+                            img(src="")
+            nav
+                .wrapper
+                    ul
+                        each item in menu
+                            li
+                                a(href=item.link)=item.name
+        main
+            block content
+
+        footer
+            include ./partners.pug
+            .mid
+                header
+                    .wrapper
+                        .events
+                            h2 ღონისძიებები - მაისი 2018
+                        .contact
+                            h2 კონტაქტი
+                        .findonmap
+                            h2 გვიპოვეთ Google რუკაზე
+                .body
+                    .wrapper
+                        .events
+                            #eventcalendar
+                        .contact
+                            ul
+                                li
+                                    img(src="")
+                                    | ქ.თბილისი, ვაჟა-ფშაველას გამზ. 76 ბ
+                                li
+                                    img(src="")
+                                    | +995 32 2 30 22 53
+                                li
+                                    img(src="")
+                                    a(href="mailto: contact@cync.ge") Contact@cync.ge
+                            .soc
+                                a(href="" target="_blank" class="yt")
+                                    img(src="")
+                                a(href="" target="_blank" class="fb")
+                                    img(src="")
+                        .findonmap
+                            #map
+                .bot
+                    .wrapper
+                        a(href="" target="_blank") ვებ-გვერდის ძველი ვერსია - 2007
+                        span ყველა უფლება დაცულია
+
+        script(src="js/jquery-3.3.1.min.js")
+        script(src="js/owl.carousel.min.js")
+        script(src="js/jquery.simple-calendar.min.js")
+        script(src="js/main.js")
+        script(src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC19mKw2GLaSiu51XX_BC6Mswbcv85FT6k&callback=initMap" async defer)

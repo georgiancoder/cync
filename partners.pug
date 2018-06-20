@@ -1,0 +1,13 @@
+-var partners = [{img: '', link: ''},{img: '', link: ''},{img: '', link: ''},{img: '', link: ''},{img: '', link: ''},{img: '', link: ''},{img: '', link: ''},{img: '', link: ''},{img: '', link: ''}]
+
+.partners
+    .wrapper
+        button.prevpartner
+            img(src="")
+        .owl-carousel.owl-theme
+            each item in partners
+                .item
+                    a(href=item.link)
+                        img(src=item.img)
+        button.nextpartner
+            img(src="")
