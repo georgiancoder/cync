@@ -1,0 +1,349 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  list-style-type: none;
+  box-sizing: border-box;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 100%;
+}
+
+input[type=reset], input[type=submit], input[type=button], button {
+  cursor: pointer;
+  border-radius: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+}
+
+a {
+  transition: 0.3s;
+  color: inherit;
+  font-family: inherit;
+}
+
+.wrapper{
+  width: 1370px;
+  margin: auto;
+}
+
+body{
+
+}
+
+header{
+  div{
+    &.wrapper{
+
+    }
+    div{
+      &.top{
+
+      }
+      &.mid{
+
+      }
+      div{
+        &.shshm{
+
+        }
+        &.lang{
+
+        }
+        div{
+          &.contrast{
+
+          }
+          &.layout{
+
+          }
+          &.font{
+
+          }
+          ul{
+            li{
+              &#contrast1{
+
+              }
+              &#contrast2{
+
+              }
+              &#contrast3{
+
+              }
+              &#contrast4{
+
+              }
+              &#contrast5{
+
+              }
+              &#scale{
+
+              }
+              &#shrink{
+
+              }
+              &#increase{
+
+              }
+              &#normal{
+
+              }
+              &#decrease{
+
+              }
+            }
+          }
+        }
+        a{
+        }
+      }
+      a{
+        &.logo{
+
+        }
+        img{
+        }
+      }
+      form{
+        input{
+        }
+        button{
+          img{
+          }
+        }
+      }
+    }
+  }
+  nav{
+    div{
+      &.wrapper{
+
+      }
+      ul{
+        li{
+          a{
+          }
+        }
+      }
+    }
+  }
+}
+main{
+  div{
+    &.owl-carousel{
+
+    }
+    &.owl-theme{
+
+    }
+    div{
+      &.item{
+
+      }
+      div{
+        &.wrapper{
+
+        }
+        article{
+          time{
+            img{
+            }
+          }
+          h2{
+          }
+          div{
+            &.desc{
+
+            }
+          }
+          a{
+            img{
+            }
+          }
+        }
+      }
+    }
+  }
+  section{
+    &.news{
+
+    }
+    &.camps{
+
+    }
+    &.programs{
+
+    }
+    div{
+      &.wrapper{
+
+      }
+      header{
+        h2{
+          img{
+          }
+        }
+        a{
+        }
+      }
+      div{
+        &.content{
+
+        }
+        &.cont{
+
+        }
+        article{
+          div{
+            &.pic{
+
+            }
+            &.desc{
+
+            }
+          }
+          time{
+            img{
+            }
+          }
+          h2{
+          }
+          a{
+            img{
+            }
+          }
+        }
+        a{
+          span{
+          }
+        }
+      }
+      a{
+        &.more{
+
+        }
+        img{
+        }
+      }
+    }
+  }
+}
+footer{
+  div{
+    &.partners{
+
+    }
+    &.mid{
+
+    }
+    div{
+      &.wrapper{
+
+      }
+      &.body{
+
+      }
+      &.bot{
+
+      }
+      button{
+        &.prevpartner{
+
+        }
+        &.nextpartner{
+
+        }
+        img{
+        }
+      }
+      div{
+        &.owl-carousel{
+
+        }
+        &.owl-theme{
+
+        }
+        &.wrapper{
+
+        }
+        div{
+          &.item{
+
+          }
+          &.events{
+
+          }
+          &.contact{
+
+          }
+          &.findonmap{
+
+          }
+          a{
+            img{
+            }
+          }
+          div{
+            &.soc{
+
+            }
+            &#eventcalendar{
+
+            }
+            &#map{
+
+            }
+            a{
+              &.yt{
+
+              }
+              &.fb{
+
+              }
+              img{
+              }
+            }
+          }
+          ul{
+            li{
+              img{
+              }
+              a{
+              }
+            }
+          }
+        }
+        a{
+        }
+        span{
+        }
+      }
+    }
+    header{
+      div{
+        &.wrapper{
+
+        }
+        div{
+          &.events{
+
+          }
+          &.contact{
+
+          }
+          &.findonmap{
+
+          }
+          h2{
+          }
+        }
+      }
+    }
+  }
+}
