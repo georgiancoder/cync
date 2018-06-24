@@ -1,13 +1,13 @@
--var partners = [{img: '', link: ''},{img: '', link: ''},{img: '', link: ''},{img: '', link: ''},{img: '', link: ''},{img: '', link: ''},{img: '', link: ''},{img: '', link: ''},{img: '', link: ''}]
+-var partners = [{img: 'images/ganatleba-logo.png', link: ''},{img: 'images/finansta-logo.png', link: ''},{img: 'images/jandacva-logo.png', link: ''},{img: 'images/layer-17.png', link: ''},{img: 'images/sporti-logo.png', link: ''}]
 
 .partners
     .wrapper
         button.prevpartner
-            img(src="")
-        .owl-carousel.owl-theme
+            img(src="images/partnerprev.png")
+        .owl-carousel.owl-theme#partners
             each item in partners
                 .item
                     a(href=item.link)
                         img(src=item.img)
         button.nextpartner
-            img(src="")
+            img(src="images/partnernext.png")

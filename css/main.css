@@ -9,11 +9,15 @@
   box-sizing: border-box;
   font-style: normal;
   font-weight: normal;
-  font-size: 100%; }
+  font-size: 100%;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s; }
 
 input[type=reset], input[type=submit], input[type=button], button {
   cursor: pointer;
-  border-radius: 0; }
+  border-radius: 0;
+  background-color: transparent; }
 
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
@@ -30,3 +34,639 @@ a {
 .wrapper {
   width: 1370px;
   margin: auto; }
+
+body > header {
+  padding-bottom: 14px; }
+  body > header::before {
+    content: '';
+    width: 100%;
+    height: 15px;
+    background-color: #dae5ee;
+    display: block; }
+  body > header div div.top {
+    padding-top: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end; }
+  body > header div div.mid {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+  body > header div div div.shshm {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: #999999;
+    font-family: "Roboto _ GEO Mt";
+    font-size: 12px;
+    font-weight: bold;
+    margin-right: 20px; }
+  body > header div div div.lang a {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #bcbcbc;
+    font-family: "BPG Nateli Mtavruli";
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase; }
+    body > header div div div.lang a:first-child {
+      margin-right: 10px; }
+    body > header div div div.lang a.active img, body > header div div div.lang a:hover img {
+      -webkit-filter: grayscale(0);
+      filter: grayscale(0); }
+    body > header div div div.lang a img {
+      margin-right: 7px;
+      -webkit-filter: grayscale(100%);
+      filter: grayscale(100%); }
+  body > header div div div div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-right: 13.5px; }
+    body > header div div div div ul {
+      margin-left: 3.5px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+      body > header div div div div ul li {
+        width: 25px;
+        height: 25px;
+        border-radius: 2px;
+        border: 1px solid #cccccc;
+        background-color: #ffffff;
+        margin: 0 3.5px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        cursor: pointer; }
+        body > header div div div div ul li img {
+          max-width: 15px; }
+        body > header div div div div ul li#contrast3 {
+          background-color: #000000; }
+        body > header div div div div ul li#contrast4 {
+          background-color: #000000; }
+        body > header div div div div ul li#contrast5 {
+          background-color: #ffff00; }
+  body > header div div form {
+    margin-top: 30px;
+    position: relative; }
+    body > header div div form input {
+      width: 283px;
+      height: 43px;
+      border-radius: 22px;
+      border: 1px solid #c8d8e4;
+      color: #cccccc;
+      font-family: "Roboto _ GEO Mt";
+      font-size: 15px;
+      font-weight: bold;
+      padding: 0 25px; }
+      body > header div div form input::-webkit-input-placeholder {
+        color: #cccccc; }
+      body > header div div form input:-ms-input-placeholder {
+        color: #cccccc; }
+      body > header div div form input::-ms-input-placeholder {
+        color: #cccccc; }
+      body > header div div form input::placeholder {
+        color: #cccccc; }
+    body > header div div form button {
+      width: 43px;
+      height: 43px;
+      position: absolute;
+      top: 0;
+      right: 0; }
+  body > header nav {
+    width: 100%;
+    height: 67px;
+    background-color: #1e5c97;
+    margin-top: 30px; }
+    body > header nav div.wrapper {
+      height: 100%; }
+    body > header nav div ul {
+      height: 100%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+      body > header nav div ul li {
+        height: 100%;
+        -webkit-box-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+        border-right: 1px solid #2b78c2;
+        padding: 0 20px; }
+        body > header nav div ul li:last-child {
+          border-right: 0; }
+        body > header nav div ul li a {
+          height: 100%;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          justify-content: center;
+          color: #ffffff;
+          font-family: "Roboto _ GEO Mt";
+          font-size: 17px;
+          font-weight: bold; }
+
+body main div#mainCarousel {
+  width: 100%;
+  height: 677px;
+  position: relative;
+  background-color: #81b5e6; }
+  body main div#mainCarousel::before, body main div#mainCarousel::after {
+    content: '';
+    height: 20px;
+    background-color: #81b5e6;
+    display: block; }
+  body main div#mainCarousel .owl-stage-outer {
+    height: 637px; }
+    body main div#mainCarousel .owl-stage-outer .owl-stage {
+      height: 100%; }
+    body main div#mainCarousel .owl-stage-outer .owl-item {
+      height: 100%; }
+  body main div#mainCarousel .owl-nav button {
+    position: absolute;
+    width: 40px;
+    height: 70px;
+    font-size: 0px;
+    top: calc(50% - 35px);
+    z-index: 2; }
+    body main div#mainCarousel .owl-nav button.owl-prev {
+      background-image: url("../images/maincarouselprev.png");
+      left: calc((100% - 1370px) / 2 + 25px); }
+    body main div#mainCarousel .owl-nav button.owl-next {
+      right: calc((100% - 1370px) / 2 + 25px);
+      background-image: url("../images/maincarouselnext.png"); }
+
+body main div div.item {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%; }
+
+body main div div div.wrapper {
+  height: 100%;
+  padding: 0 20px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+body main div div div article {
+  width: 447px;
+  border-radius: 16px;
+  background-color: rgba(26, 95, 162, 0.9);
+  margin-right: 115px;
+  padding: 50px 40px; }
+  body main div div div article time {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: #70b1ef;
+    font-family: "BPG Nateli Mtavruli";
+    font-size: 16px;
+    font-weight: bold; }
+    body main div div div article time img {
+      width: auto !important;
+      margin-right: 10px; }
+  body main div div div article h2 {
+    margin-top: 20px;
+    color: #ffffff;
+    font-family: "BPG Nateli Mtavruli";
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 30px;
+    position: relative; }
+    body main div div div article h2::after {
+      content: '';
+      display: block;
+      width: 170px;
+      height: 1px;
+      background-color: #70b1ef;
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+      transform: translateX(-50%); }
+  body main div div div article div.desc {
+    margin-top: 30px;
+    text-align: center;
+    color: #ffffff;
+    font-family: "BPG Nateli GPL & GNU";
+    font-size: 17px;
+    font-weight: bold; }
+  body main div div div article a {
+    margin-top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #ffffff;
+    font-family: "BPG Nateli Mtavruli";
+    font-size: 16px;
+    font-weight: bold; }
+    body main div div div article a img {
+      width: auto !important;
+      margin-right: 10px; }
+
+body main section.news header {
+  margin-top: 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e6e6e6; }
+  body main section.news header h2 {
+    color: #327fc9;
+    font-family: "BPG Nateli Mtavruli";
+    font-size: 26px;
+    font-weight: bold; }
+  body main section.news header a {
+    color: #327fc9;
+    font-family: "BPG Nateli Mtavruli";
+    font-size: 16px;
+    font-weight: bold; }
+    body main section.news header a img {
+      margin-right: 5px; }
+
+body main section.camps header h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #333333;
+  font-family: "BPG Nateli Mtavruli";
+  font-size: 26px;
+  font-weight: bold; }
+  body main section.camps header h2 img {
+    margin-right: 10px; }
+
+body main section.camps .cont {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+  body main section.camps .cont a {
+    overflow: hidden;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 211px;
+    height: 90px;
+    border-radius: 4px;
+    border: 1px solid #4494e1;
+    background-color: #ffffff;
+    border-right: 14px solid  #4494e1;
+    color: #333333;
+    font-family: "BPG Nateli Mtavruli";
+    font-size: 24px;
+    font-weight: bold; }
+    body main section.camps .cont a span {
+      position: relative;
+      z-index: 2; }
+    body main section.camps .cont a span.number {
+      position: absolute;
+      left: -10px;
+      color: #f5f1f1;
+      font-family: "BPG Nateli Mtavruli";
+      font-size: 67px;
+      font-weight: bold;
+      z-index: 0; }
+
+body main section div div.content {
+  border-bottom: 1px solid #e6e6e6;
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding-bottom: 30px; }
+  body main section div div.content article {
+    width: 320px; }
+    body main section div div.content article div.pic {
+      width: 100%;
+      height: 251px;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    body main section div div.content article div.desc {
+      margin-top: 20px;
+      color: #666666;
+      font-family: "BPG Nateli GPL & GNU";
+      font-size: 15px;
+      font-weight: bold; }
+    body main section div div.content article time {
+      display: block;
+      color: #666666;
+      font-family: "BPG Nateli Mtavruli";
+      font-size: 16px;
+      font-weight: bold;
+      margin-top: 18px; }
+      body main section div div.content article time img {
+        margin-right: 10px; }
+    body main section div div.content article h2 {
+      margin-top: 20px;
+      color: #333333;
+      font-family: "BPG Nateli Mtavruli";
+      font-size: 20px;
+      font-weight: bold; }
+    body main section div div.content article a {
+      display: block;
+      margin-top: 30px;
+      color: #327fc9;
+      font-family: "BPG Nateli Mtavruli";
+      font-size: 16px;
+      font-weight: bold; }
+      body main section div div.content article a img {
+        margin-right: 10px; }
+
+body footer div.partners {
+  width: 100%;
+  height: 220px;
+  background-color: #f2f2f2; }
+  body footer div.partners .wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 100%; }
+
+body footer div.mid {
+  margin-top: 20px; }
+  body footer div.mid > header {
+    width: 100%;
+    height: 66px;
+    background-color: #dde9f5; }
+    body footer div.mid > header .wrapper {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+
+body footer div div.body {
+  width: 100%;
+  background-color: #d1e1f0;
+  padding: 20px 0; }
+  body footer div div.body .wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+
+body footer div div.bot {
+  width: 100%;
+  height: 90px;
+  background-color: #094278; }
+  body footer div div.bot .wrapper {
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    body footer div div.bot .wrapper a {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      padding: 0 25px;
+      height: 49px;
+      border: 1px solid #4494e1;
+      color: #ffffff;
+      font-family: "BPG Nateli Mtavruli";
+      font-size: 18px;
+      font-weight: bold; }
+    body footer div div.bot .wrapper span {
+      color: #ffffff;
+      font-family: "Roboto _ GEO Mt";
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 41px; }
+
+body footer div div div.owl-carousel {
+  width: calc(100% - 120px);
+  height: 100%; }
+  body footer div div div.owl-carousel .owl-stage-outer {
+    height: 100%; }
+    body footer div div div.owl-carousel .owl-stage-outer .owl-stage {
+      height: inherit; }
+      body footer div div div.owl-carousel .owl-stage-outer .owl-stage .owl-item {
+        height: inherit; }
+
+body footer div div div div.item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 100%; }
+  body footer div div div div.item:hover img {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%); }
+  body footer div div div div.item img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%); }
+
+body footer div div div div.events {
+  width: 505px; }
+
+body footer div div div div.contact {
+  width: 330px; }
+
+body footer div div div div.findonmap {
+  width: 535px; }
+
+body footer div div div div a img {
+  width: auto !important;
+  max-width: 250px; }
+
+body footer div div div div div.soc {
+  margin-top: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  body footer div div div div div.soc a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 39px;
+    height: 39px;
+    border: 1px solid #4494e1;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%; }
+    body footer div div div div div.soc a.yt {
+      margin-right: 10px; }
+
+body footer div div div div div#eventcalendar header {
+  display: none; }
+
+body footer div div div div div#eventcalendar table {
+  border-spacing: 1px; }
+  body footer div div div div div#eventcalendar table thead {
+    color: #666666;
+    font-family: "BPG Nateli Mtavruli";
+    font-size: 15px;
+    font-weight: bold; }
+    body footer div div div div div#eventcalendar table thead td {
+      text-align: center; }
+  body footer div div div div div#eventcalendar table tbody td {
+    text-align: center;
+    width: 49px;
+    height: 49px;
+    background-color: #b2cde6; }
+    body footer div div div div div#eventcalendar table tbody td .wrong-month {
+      display: none; }
+    body footer div div div div div#eventcalendar table tbody td:nth-child(6) {
+      background-color: #97bddf; }
+    body footer div div div div div#eventcalendar table tbody td:nth-child(7) {
+      background-color: #97bddf; }
+
+body footer div div div div div#map {
+  width: 100%;
+  height: 100%; }
+
+body footer div div div div ul li {
+  color: #333333;
+  font-family: "BPG Nateli Mtavruli";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 46px; }
+  body footer div div div div ul li::before {
+    content: '';
+    width: 15px;
+    height: 16px;
+    background-image: url("../images/contacticons.png");
+    display: inline-block;
+    margin-right: 10px; }
+  body footer div div div div ul li.address::before {
+    background-position: 0px 0px; }
+  body footer div div div div ul li.tell::before {
+    background-position: 0px -46px; }
+  body footer div div div div ul li.emil::before {
+    background-position: 0px -90px; }
+
+body footer div header div.wrapper {
+  height: 100%; }
+
+body footer div header div div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  body footer div header div div.events {
+    width: 505px; }
+    body footer div header div div.events::before {
+      content: '';
+      display: block;
+      width: 15px;
+      height: 15px;
+      background-color: #4494e1;
+      margin-right: 9px; }
+  body footer div header div div.contact {
+    width: 330px; }
+    body footer div header div div.contact::before {
+      content: '';
+      display: block;
+      width: 15px;
+      height: 15px;
+      background-color: #4494e1;
+      margin-right: 9px; }
+  body footer div header div div.findonmap {
+    width: 535px; }
+  body footer div header div div h2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #094278;
+    font-family: "BPG Nateli Mtavruli";
+    font-size: 20px;
+    font-weight: bold; }
+    body footer div header div div h2 img {
+      margin-right: 10px; }

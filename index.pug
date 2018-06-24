@@ -32,12 +32,12 @@ block content
             -var camps = [{name: 'ანაკლია'},{name: 'ანაკლია'},{name: 'ანაკლია'},{name: 'ანაკლია'},{name: 'ანაკლია'},{name: 'ანაკლია'}]
             .wrapper
                 header
-                    h2 <img src=""> ბანაკები
+                    h2 <img src="images/camp.png"> ბანაკები
                 .cont
                     each item, index in camps
                         a()
-                            span='0' + (index+1)
-                            | #{item.name}
+                            span(class="number")='0' + (index+1)
+                            span #{item.name}
         section.programs
             -var programs = [{name: 'გამაჯანსაღებელი დარბაზი'},{name: 'სპორტული წრეები'},{name: 'CYNC თავისუფალი სივრცე'},{name: 'სახელობითი წრეები'},{name: 'სპორტი ბარიერის გარეშე'}]
             .wrapper
