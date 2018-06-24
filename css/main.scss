@@ -9,11 +9,13 @@
   font-style: normal;
   font-weight: normal;
   font-size: 100%;
+  transition: 0.3s;
 }
 
 input[type=reset], input[type=submit], input[type=button], button {
   cursor: pointer;
   border-radius: 0;
+  background-color: transparent;
 }
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
@@ -33,314 +35,715 @@ a {
 }
 
 body{
-
-}
-
-header{
-  div{
-    &.wrapper{
-
+  &>header{
+    padding-bottom: 14px;
+    &::before{
+      content: '';
+      width: 100%;
+      height: 15px;
+      background-color: #dae5ee;
+      display: block;
     }
-    div{
-      &.top{
-
-      }
-      &.mid{
-
-      }
-      div{
-        &.shshm{
-
-        }
-        &.lang{
-
-        }
-        div{
-          &.contrast{
-
-          }
-          &.layout{
-
-          }
-          &.font{
-
-          }
-          ul{
-            li{
-              &#contrast1{
-
-              }
-              &#contrast2{
-
-              }
-              &#contrast3{
-
-              }
-              &#contrast4{
-
-              }
-              &#contrast5{
-
-              }
-              &#scale{
-
-              }
-              &#shrink{
-
-              }
-              &#increase{
-
-              }
-              &#normal{
-
-              }
-              &#decrease{
-
-              }
-            }
-          }
-        }
-        a{
-        }
-      }
-      a{
-        &.logo{
-
-        }
-        img{
-        }
-      }
-      form{
-        input{
-        }
-        button{
-          img{
-          }
-        }
-      }
-    }
-  }
-  nav{
     div{
       &.wrapper{
 
       }
-      ul{
-        li{
+      div{
+        &.top{
+          padding-top: 10px;
+          display: flex;
+          justify-content: flex-end;
+        }
+        &.mid{
+          display: flex;
+          justify-content: space-between;
+        }
+        div{
+          &.shshm{
+            display: flex;
+            color: #999999;
+            font-family: "Roboto _ GEO Mt";
+            font-size: 12px;
+            font-weight: bold;
+            margin-right: 20px;
+          }
+          &.lang{
+            a{
+              display: inline-flex;
+              align-items: center;
+              color: #bcbcbc;
+              font-family: "BPG Nateli Mtavruli";
+              font-size: 14px;
+              font-weight: bold;
+              text-transform: uppercase;
+              &:first-child{
+                margin-right: 10px;
+              }
+              &.active, &:hover{
+                img{
+                  filter: grayscale(0);
+                }
+              }
+              img{
+                margin-right: 7px;
+                filter: grayscale(100%);
+              }
+            }
+          }
+          div{
+            display: flex;
+            align-items: center;
+            margin-right: 13.5px;
+            &.contrast{
+
+            }
+            &.layout{
+
+            }
+            &.font{
+
+            }
+            ul{
+              margin-left: 3.5px;
+              display: flex;
+              align-items: center;
+              li{
+                width: 25px;
+                height: 25px;
+                border-radius: 2px;
+                border: 1px solid #cccccc;
+                background-color: #ffffff;
+                margin: 0 3.5px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                cursor: pointer;
+                img{
+                  max-width: 15px;
+                }
+                &#contrast1{
+
+                }
+                &#contrast2{
+
+                }
+                &#contrast3{
+                  background-color: #000000;
+                }
+                &#contrast4{
+                  background-color: #000000;
+                }
+                &#contrast5{
+                  background-color: #ffff00;
+                }
+                &#scale{
+
+                }
+                &#shrink{
+
+                }
+                &#increase{
+
+                }
+                &#normal{
+
+                }
+                &#decrease{
+
+                }
+              }
+            }
+          }
           a{
+          }
+        }
+        a{
+          &.logo{
+
+          }
+          img{
+          }
+        }
+        form{
+          margin-top: 30px;
+          position: relative;
+          input{
+            width: 283px;
+            height: 43px;
+            border-radius: 22px;
+            border: 1px solid #c8d8e4;
+            color: #cccccc;
+            font-family: "Roboto _ GEO Mt";
+            font-size: 15px;
+            font-weight: bold;
+            padding: 0 25px;
+            &::placeholder{
+              color: #cccccc;
+            }
+          }
+          button{
+            width: 43px;
+            height: 43px;
+            position: absolute;
+            top: 0;
+            right: 0;
+            img{
+            }
+          }
+        }
+      }
+    }
+    nav{
+      width: 100%;
+      height: 67px;
+      background-color: #1e5c97;
+      margin-top: 30px;
+      div{
+        &.wrapper{
+          height: 100%;
+        }
+        ul{
+          height: 100%;
+          display: flex;
+          li{
+            height: 100%;
+            flex: 1;
+            border-right: 1px solid #2b78c2;
+            padding: 0 20px;
+            &:last-child{
+              border-right: 0;
+            }
+            a{
+              height: 100%;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              color: #ffffff;
+              font-family: "Roboto _ GEO Mt";
+              font-size: 17px;
+              font-weight: bold;
+            }
           }
         }
       }
     }
   }
-}
-main{
-  div{
-    &.owl-carousel{
-
-    }
-    &.owl-theme{
-
-    }
+  main{
     div{
-      &.item{
+      &#mainCarousel{
+        width: 100%;
+        height: 677px;
+        position: relative;
+        background-color: #81b5e6;
+        &::before, &::after{
+          content: '';
+          height: 20px;
+          background-color: #81b5e6;
+          display: block;
+        }
+        .owl-stage-outer{
+          height: 637px;
+          .owl-stage{
+            height: 100%;
+          }
+          .owl-item{
+            height: 100%;
+          }
+        }
+        .owl-nav{
+          button{
+            position: absolute;
+            width: 40px;
+            height: 70px;
+            font-size: 0px;
+            top: calc(50% - 35px);
+            z-index: 2;
+            &.owl-prev{
+                background-image: url("../images/maincarouselprev.png");
+                left: calc((100% - 1370px) / 2 + 25px);
+            }
+            &.owl-next{
+              right: calc((100% - 1370px) / 2 + 25px);
+              background-image: url("../images/maincarouselnext.png");
+            }
+          }
+
+        }
+      }
+      div{
+        &.item{
+          background-repeat: no-repeat;
+          background-size: cover;
+          height: 100%;
+        }
+        div{
+          &.wrapper{
+            height: 100%;
+            padding: 0 20px;
+            position: relative;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+          }
+          article{
+            width: 447px;
+            border-radius: 16px;
+            background-color: rgba(26,95,162,0.9);
+            margin-right: 115px;
+            padding: 50px 40px;
+            time{
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              color: #70b1ef;
+              font-family: "BPG Nateli Mtavruli";
+              font-size: 16px;
+              font-weight: bold;
+              img{
+                width: auto!important;
+                margin-right: 10px;
+              }
+            }
+            h2{
+              margin-top: 20px;
+              color: #ffffff;
+              font-family: "BPG Nateli Mtavruli";
+              font-size: 25px;
+              font-weight: bold;
+              text-align: center;
+              padding-bottom: 30px;
+              position: relative;
+              &::after{
+                content: '';
+                display: block;
+                width: 170px;
+                height: 1px;
+                background-color: #70b1ef;
+                position: absolute;
+                bottom: 0;
+                left: 50%;
+                transform: translateX(-50%);
+              }
+            }
+            div{
+              &.desc{
+                margin-top: 30px;
+                text-align: center;
+                color: #ffffff;
+                font-family: "BPG Nateli GPL & GNU";
+                font-size: 17px;
+                font-weight: bold;
+              }
+            }
+            a{
+              margin-top: 30px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              color: #ffffff;
+              font-family: "BPG Nateli Mtavruli";
+              font-size: 16px;
+              font-weight: bold;
+              img{
+                width: auto!important;
+                margin-right: 10px;
+              }
+            }
+          }
+        }
+      }
+    }
+    section{
+      &.news{
+        header{
+          margin-top: 45px;
+          display: flex;
+          justify-content: space-between;
+          padding-bottom: 20px;
+          border-bottom: 1px solid #e6e6e6;
+          h2{
+            color: #327fc9;
+            font-family: "BPG Nateli Mtavruli";
+            font-size: 26px;
+            font-weight: bold;
+            img{
+            }
+          }
+          a{
+            color: #327fc9;
+            font-family: "BPG Nateli Mtavruli";
+            font-size: 16px;
+            font-weight: bold;
+            img{
+              margin-right: 5px;
+            }
+          }
+        }
+      }
+      &.camps{
+
+      }
+      &.programs{
 
       }
       div{
         &.wrapper{
 
         }
-        article{
-          time{
-            img{
-            }
-          }
+        header{
           h2{
-          }
-          div{
-            &.desc{
-
+            img{
             }
           }
           a{
-            img{
+          }
+        }
+        div{
+          &.content{
+            border-bottom: 1px solid #e6e6e6;
+            margin-top: 30px;
+            display: flex;
+            justify-content: space-between;
+            padding-bottom: 30px;
+            article{
+              width: 320px;
+              div{
+                &.pic{
+                  width: 100%;
+                  height: 251px;
+                  background-repeat: no-repeat;
+                  background-size: cover;
+                }
+                &.desc{
+                  margin-top: 20px;
+                  color: #666666;
+                  font-family: "BPG Nateli GPL & GNU";
+                  font-size: 15px;
+                  font-weight: bold;
+                }
+              }
+              time{
+                display: block;
+                color: #666666;
+                font-family: "BPG Nateli Mtavruli";
+                font-size: 16px;
+                font-weight: bold;
+                margin-top: 18px;
+                img{
+                  margin-right: 10px;
+                }
+              }
+              h2{
+                margin-top: 20px;
+                color: #333333;
+                font-family: "BPG Nateli Mtavruli";
+                font-size: 20px;
+                font-weight: bold;
+              }
+              a{
+                display: block;
+                margin-top: 30px;
+                color: #327fc9;
+                font-family: "BPG Nateli Mtavruli";
+                font-size: 16px;
+                font-weight: bold;
+                img{
+                  margin-right: 10px;
+                }
+              }
             }
+          }
+          &.cont{
+
+          }
+          a{
+            span{
+            }
+          }
+        }
+        a{
+          &.more{
+
+          }
+          img{
           }
         }
       }
     }
   }
-  section{
-    &.news{
-
-    }
-    &.camps{
-
-    }
-    &.programs{
-
-    }
+  footer{
     div{
-      &.wrapper{
-
-      }
-      header{
-        h2{
-          img{
-          }
+      &.partners{
+        width: 100%;
+        height: 220px;
+        background-color: #f2f2f2;
+        .wrapper{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          height: 100%;
         }
-        a{
+      }
+      &.mid{
+        margin-top: 20px;
+        &>header{
+          width: 100%;
+          height: 66px;
+          background-color: #dde9f5;
+          .wrapper{
+            display: flex;
+          }
         }
       }
       div{
-        &.content{
 
+        &.body{
+          width: 100%;
+          background-color: #d1e1f0;
+          padding: 20px 0;
+          .wrapper{
+            display: flex;
+          }
         }
-        &.cont{
+        &.bot{
+          width: 100%;
+          height: 90px;
+          background-color: #094278;
+          .wrapper{
+            height: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            a{
+              display: flex;
+              align-items: center;
+              padding: 0 25px;
+              height: 49px;
+              border: 1px solid #4494e1;
+              color: #ffffff;
+              font-family: "BPG Nateli Mtavruli";
+              font-size: 18px;
+              font-weight: bold;
+            }
+            span{
+              color: #ffffff;
+              font-family: "Roboto _ GEO Mt";
+              font-size: 14px;
+              font-weight: 400;
+              line-height: 41px;
+            }
+          }
+        }
+        button{
+          &.prevpartner{
 
+          }
+          &.nextpartner{
+
+          }
+          img{
+
+          }
         }
-        article{
+        div{
+          &.owl-carousel{
+            width: calc(100% - 120px);
+            height: 100%;
+            .owl-stage-outer{
+              height: 100%;
+              .owl-stage{
+                height: inherit;
+                .owl-item{
+                  height: inherit;
+                }
+              }
+            }
+          }
+          &.wrapper{
+
+          }
           div{
-            &.pic{
+            &.item{
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              height: 100%;
+              &:hover{
+                img{
+                  filter: grayscale(0%);
+                }
+              }
+              img{
+                filter: grayscale(100%);
+              }
+            }
+            &.events{
+              width: 505px;
+            }
+            &.contact{
+              width: 330px;
+            }
+            &.findonmap{
+              width: 535px;
+            }
+            a{
+              img{
+                width: auto!important;
+                max-width: 250px;
+              }
+            }
+            div{
+              &.soc{
+                margin-top: 35px;
+                display: flex;
+                a{
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  width: 39px;
+                  height: 39px;
+                  border: 1px solid #4494e1;
+                  -webkit-border-radius: 50%;
+                  -moz-border-radius: 50%;
+                  border-radius: 50%;
+                  &.yt{
+                    margin-right: 10px;
+                  }
+                  &.fb{
+
+                  }
+                  img{
+                  }
+                }
+              }
+              &#eventcalendar{
+                header{
+                  display: none;
+                }
+                table{
+                  border-spacing: 1px;
+                  thead{
+                    color: #666666;
+                    font-family: "BPG Nateli Mtavruli";
+                    font-size: 15px;
+                    font-weight: bold;
+                    td{
+                      text-align: center;
+                    }
+                  }
+                  tbody{
+                    td{
+                      text-align: center;
+                      width: 49px;
+                      height: 49px;
+                      background-color: #b2cde6;
+                      .wrong-month{
+                        display: none;
+                      }
+                      &:nth-child(6){
+                        background-color: #97bddf;
+                      }
+                      &:nth-child(7){
+                        background-color: #97bddf;
+                      }
+                    }
+                  }
+                }
+              }
+              &#map{
+                width: 100%;
+                height: 100%;
+              }
 
             }
-            &.desc{
-
+            ul{
+              li{
+                color: #333333;
+                font-family: "BPG Nateli Mtavruli";
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 46px;
+                &::before{
+                  content: '';
+                  width: 15px;
+                  height: 16px;
+                  background-image: url("../images/contacticons.png");
+                  display: inline-block;
+                  margin-right: 10px;
+                }
+                &.address{
+                  &::before{
+                    background-position: 0px 0px;
+                  }
+                }
+                &.tell{
+                  &::before{
+                    background-position: 0px -46px;
+                  }
+                }
+                &.emil{
+                  &::before{
+                    background-position: 0px -90px;
+                  }
+                }
+                img{
+                }
+                a{
+                }
+              }
             }
-          }
-          time{
-            img{
-            }
-          }
-          h2{
           }
           a{
-            img{
-            }
           }
-        }
-        a{
           span{
           }
         }
       }
-      a{
-        &.more{
+      header{
 
-        }
-        img{
-        }
-      }
-    }
-  }
-}
-footer{
-  div{
-    &.partners{
-
-    }
-    &.mid{
-
-    }
-    div{
-      &.wrapper{
-
-      }
-      &.body{
-
-      }
-      &.bot{
-
-      }
-      button{
-        &.prevpartner{
-
-        }
-        &.nextpartner{
-
-        }
-        img{
-        }
-      }
-      div{
-        &.owl-carousel{
-
-        }
-        &.owl-theme{
-
-        }
-        &.wrapper{
-
-        }
         div{
-          &.item{
-
-          }
-          &.events{
-
-          }
-          &.contact{
-
-          }
-          &.findonmap{
-
-          }
-          a{
-            img{
-            }
+          &.wrapper{
+            height: 100%;
           }
           div{
-            &.soc{
-
-            }
-            &#eventcalendar{
-
-            }
-            &#map{
-
-            }
-            a{
-              &.yt{
-
+            display: flex;
+            align-items: center;
+            &.events{
+              width: 505px;
+              &::before{
+                content: '';
+                display: block;
+                width: 15px;
+                height: 15px;
+                background-color: #4494e1;
+                margin-right: 9px;
               }
-              &.fb{
-
+            }
+            &.contact{
+              width: 330px;
+              &::before{
+                content: '';
+                display: block;
+                width: 15px;
+                height: 15px;
+                background-color: #4494e1;
+                margin-right: 9px;
               }
+            }
+            &.findonmap{
+              width: 535px;
+            }
+            h2{
+              display: flex;
+              align-items: center;
+              color: #094278;
+              font-family: "BPG Nateli Mtavruli";
+              font-size: 20px;
+              font-weight: bold;
               img{
+                margin-right: 10px;
               }
             }
-          }
-          ul{
-            li{
-              img{
-              }
-              a{
-              }
-            }
-          }
-        }
-        a{
-        }
-        span{
-        }
-      }
-    }
-    header{
-      div{
-        &.wrapper{
-
-        }
-        div{
-          &.events{
-
-          }
-          &.contact{
-
-          }
-          &.findonmap{
-
-          }
-          h2{
           }
         }
       }

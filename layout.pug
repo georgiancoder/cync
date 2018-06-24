@@ -16,26 +16,40 @@ html
                             | კონტრასტი
                             ul
                                 li#contrast1
+                                    img(src="images/contrast1.png")
                                 li#contrast2
+                                    img(src="images/contrast2.png")
                                 li#contrast3
+                                    img(src="images/contrast3.png")
                                 li#contrast4
+                                    img(src="images/contrast4.png")
                                 li#contrast5
+                                    img(src="images/contrast5.png")
                         .layout
                             | განლაგება
                             ul
                                 li#scale
+                                    img(src="images/scale.png")
                                 li#shrink
+                                    img(src="images/shrink.png")
                         .font
                             | შრიფტი
                             ul
                                 li#increase
+                                    img(src="images/zoomin.png")
                                 li#normal
+                                    img(src="images/normal.png")
                                 li#decrease
+                                    img(src="images/zoomout.png")
                     .lang
-                        a(href="") ქართული
-                        a(href="") ENGLISH
+                        a(href="" class="active")
+                            img(src="images/georgia.png")
+                            | ქართული
+                        a(href="")
+                            img(src="images/united-kingdom.png")
+                            | ENGLISH
                 .mid
-                    a.logo
+                    a.logo(href="index.html")
                         img(src="images/logo.png" alt="logo")
                     form
                         input(type="text" placeholder="ძიება")
@@ -60,19 +74,18 @@ html
                         .contact
                             h2 კონტაქტი
                         .findonmap
-                            h2 გვიპოვეთ Google რუკაზე
+                            h2 <img src="images/googlemap.png"> გვიპოვეთ Google რუკაზე
                 .body
                     .wrapper
                         .events
                             #eventcalendar
                         .contact
                             ul
-                                li
-
+                                li.address
                                     | ქ.თბილისი, ვაჟა-ფშაველას გამზ. 76 ბ
-                                li
+                                li.tell
                                     | +995 32 2 30 22 53
-                                li
+                                li.emil
                                     a(href="mailto: contact@cync.ge") Contact@cync.ge
                             .soc
                                 a(href="" target="_blank" class="yt")
@@ -84,7 +97,7 @@ html
                 .bot
                     .wrapper
                         a(href="" target="_blank") ვებ-გვერდის ძველი ვერსია - 2007
-                        span ყველა უფლება დაცულია
+                        span ყველა უფლება დაცულია &copy; 2018
 
         script(src="js/jquery-3.3.1.min.js")
         script(src="js/owl.carousel.min.js")
