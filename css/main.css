@@ -335,34 +335,9 @@ body main section.news header {
     body main section.news header a img {
       margin-right: 5px; }
 
-body main section.camps header h2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  color: #333333;
-  font-family: "BPG Nateli Mtavruli";
-  font-size: 26px;
-  font-weight: bold; }
-  body main section.camps header h2 img {
-    margin-right: 10px; }
-
-body main section.camps .cont {
-  margin-top: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between; }
-  body main section.camps .cont a {
-    overflow: hidden;
-    position: relative;
+body main section.camps {
+  margin-top: 45px; }
+  body main section.camps header h2 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -372,27 +347,116 @@ body main section.camps .cont {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    width: 211px;
-    height: 90px;
-    border-radius: 4px;
-    border: 1px solid #4494e1;
-    background-color: #ffffff;
-    border-right: 14px solid  #4494e1;
     color: #333333;
     font-family: "BPG Nateli Mtavruli";
-    font-size: 24px;
+    font-size: 26px;
     font-weight: bold; }
-    body main section.camps .cont a span {
+    body main section.camps header h2 img {
+      margin-right: 10px; }
+  body main section.camps .cont {
+    margin-top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+    body main section.camps .cont a {
+      overflow: hidden;
       position: relative;
-      z-index: 2; }
-    body main section.camps .cont a span.number {
-      position: absolute;
-      left: -10px;
-      color: #f5f1f1;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      width: 211px;
+      height: 90px;
+      border-radius: 4px;
+      border: 1px solid #4494e1;
+      background-color: #ffffff;
+      border-right: 14px solid  #4494e1;
+      color: #333333;
       font-family: "BPG Nateli Mtavruli";
-      font-size: 67px;
+      font-size: 24px;
+      font-weight: bold; }
+      body main section.camps .cont a span {
+        position: relative;
+        z-index: 2; }
+      body main section.camps .cont a span.number {
+        position: absolute;
+        left: -10px;
+        color: #f5f1f1;
+        font-family: "BPG Nateli Mtavruli";
+        font-size: 67px;
+        font-weight: bold;
+        z-index: 0; }
+
+body main section.programs {
+  margin-top: 80px; }
+  body main section.programs header h2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #333333;
+    font-family: "BPG Nateli Mtavruli";
+    font-size: 26px;
+    font-weight: bold; }
+    body main section.programs header h2 img {
+      margin-right: 10px; }
+  body main section.programs .cont {
+    margin-top: 25px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    body main section.programs .cont a {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      width: 265px;
+      height: 90px;
+      border-radius: 4px;
+      border: 1px solid #a2cd3d;
+      background-color: #ffffff;
+      border-right: 14px solid  #a2cd3d;
+      color: #333333;
+      font-family: "BPG Nateli Mtavruli";
+      font-size: 20px;
       font-weight: bold;
-      z-index: 0; }
+      padding: 0 25px;
+      margin-right: 11.25px; }
+      body main section.programs .cont a:nth-child(5n + 5) {
+        margin-right: 0; }
+  body main section.programs .more {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 30px;
+    color: #a2cd3d;
+    font-family: "BPG Nateli Mtavruli";
+    font-size: 16px;
+    font-weight: bold; }
+    body main section.programs .more img {
+      margin-right: 10px; }
 
 body main section div div.content {
   border-bottom: 1px solid #e6e6e6;
@@ -442,125 +506,86 @@ body main section div div.content {
       body main section div div.content article a img {
         margin-right: 10px; }
 
-body footer div.partners {
-  width: 100%;
-  height: 220px;
-  background-color: #f2f2f2; }
-  body footer div.partners .wrapper {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    height: 100%; }
-
-body footer div.mid {
-  margin-top: 20px; }
-  body footer div.mid > header {
+body footer {
+  margin-top: 40px; }
+  body footer div.partners {
     width: 100%;
-    height: 66px;
-    background-color: #dde9f5; }
-    body footer div.mid > header .wrapper {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex; }
-
-body footer div div.body {
-  width: 100%;
-  background-color: #d1e1f0;
-  padding: 20px 0; }
-  body footer div div.body .wrapper {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex; }
-
-body footer div div.bot {
-  width: 100%;
-  height: 90px;
-  background-color: #094278; }
-  body footer div div.bot .wrapper {
-    height: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center; }
-    body footer div div.bot .wrapper a {
+    height: 220px;
+    background-color: #f2f2f2; }
+    body footer div.partners .wrapper {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
       -webkit-box-align: center;
       -ms-flex-align: center;
       align-items: center;
-      padding: 0 25px;
-      height: 49px;
-      border: 1px solid #4494e1;
-      color: #ffffff;
-      font-family: "BPG Nateli Mtavruli";
-      font-size: 18px;
-      font-weight: bold; }
-    body footer div div.bot .wrapper span {
-      color: #ffffff;
-      font-family: "Roboto _ GEO Mt";
-      font-size: 14px;
-      font-weight: 400;
-      line-height: 41px; }
-
-body footer div div div.owl-carousel {
-  width: calc(100% - 120px);
-  height: 100%; }
-  body footer div div div.owl-carousel .owl-stage-outer {
+      height: 100%; }
+  body footer div.mid {
+    margin-top: 20px; }
+    body footer div.mid > header {
+      width: 100%;
+      height: 66px;
+      background-color: #dde9f5; }
+      body footer div.mid > header .wrapper {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex; }
+  body footer div div.body {
+    width: 100%;
+    background-color: #d1e1f0;
+    padding: 20px 0; }
+    body footer div div.body .wrapper {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+  body footer div div.bot {
+    width: 100%;
+    height: 90px;
+    background-color: #094278; }
+    body footer div div.bot .wrapper {
+      height: 100%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+      body footer div div.bot .wrapper a {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        padding: 0 25px;
+        height: 49px;
+        border: 1px solid #4494e1;
+        color: #ffffff;
+        font-family: "BPG Nateli Mtavruli";
+        font-size: 18px;
+        font-weight: bold; }
+      body footer div div.bot .wrapper span {
+        color: #ffffff;
+        font-family: "Roboto _ GEO Mt";
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 41px; }
+  body footer div div div.owl-carousel {
+    width: calc(100% - 120px);
     height: 100%; }
-    body footer div div div.owl-carousel .owl-stage-outer .owl-stage {
-      height: inherit; }
-      body footer div div div.owl-carousel .owl-stage-outer .owl-stage .owl-item {
+    body footer div div div.owl-carousel .owl-stage-outer {
+      height: 100%; }
+      body footer div div div.owl-carousel .owl-stage-outer .owl-stage {
         height: inherit; }
-
-body footer div div div div.item {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  height: 100%; }
-  body footer div div div div.item:hover img {
-    -webkit-filter: grayscale(0%);
-    filter: grayscale(0%); }
-  body footer div div div div.item img {
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%); }
-
-body footer div div div div.events {
-  width: 505px; }
-
-body footer div div div div.contact {
-  width: 330px; }
-
-body footer div div div div.findonmap {
-  width: 535px; }
-
-body footer div div div div a img {
-  width: auto !important;
-  max-width: 250px; }
-
-body footer div div div div div.soc {
-  margin-top: 35px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex; }
-  body footer div div div div div.soc a {
+        body footer div div div.owl-carousel .owl-stage-outer .owl-stage .owl-item {
+          height: inherit; }
+  body footer div div div div.item {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -570,103 +595,128 @@ body footer div div div div div.soc {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    width: 39px;
-    height: 39px;
-    border: 1px solid #4494e1;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    border-radius: 50%; }
-    body footer div div div div div.soc a.yt {
-      margin-right: 10px; }
-
-body footer div div div div div#eventcalendar header {
-  display: none; }
-
-body footer div div div div div#eventcalendar table {
-  border-spacing: 1px; }
-  body footer div div div div div#eventcalendar table thead {
-    color: #666666;
-    font-family: "BPG Nateli Mtavruli";
-    font-size: 15px;
-    font-weight: bold; }
-    body footer div div div div div#eventcalendar table thead td {
-      text-align: center; }
-  body footer div div div div div#eventcalendar table tbody td {
-    text-align: center;
-    width: 49px;
-    height: 49px;
-    background-color: #b2cde6; }
-    body footer div div div div div#eventcalendar table tbody td .wrong-month {
-      display: none; }
-    body footer div div div div div#eventcalendar table tbody td:nth-child(6) {
-      background-color: #97bddf; }
-    body footer div div div div div#eventcalendar table tbody td:nth-child(7) {
-      background-color: #97bddf; }
-
-body footer div div div div div#map {
-  width: 100%;
-  height: 100%; }
-
-body footer div div div div ul li {
-  color: #333333;
-  font-family: "BPG Nateli Mtavruli";
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 46px; }
-  body footer div div div div ul li::before {
-    content: '';
-    width: 15px;
-    height: 16px;
-    background-image: url("../images/contacticons.png");
-    display: inline-block;
-    margin-right: 10px; }
-  body footer div div div div ul li.address::before {
-    background-position: 0px 0px; }
-  body footer div div div div ul li.tell::before {
-    background-position: 0px -46px; }
-  body footer div div div div ul li.emil::before {
-    background-position: 0px -90px; }
-
-body footer div header div.wrapper {
-  height: 100%; }
-
-body footer div header div div {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center; }
-  body footer div header div div.events {
+    height: 100%; }
+    body footer div div div div.item:hover img {
+      -webkit-filter: grayscale(0%);
+      filter: grayscale(0%); }
+    body footer div div div div.item img {
+      -webkit-filter: grayscale(100%);
+      filter: grayscale(100%); }
+  body footer div div div div.events {
     width: 505px; }
-    body footer div header div div.events::before {
-      content: '';
-      display: block;
-      width: 15px;
-      height: 15px;
-      background-color: #4494e1;
-      margin-right: 9px; }
-  body footer div header div div.contact {
+  body footer div div div div.contact {
     width: 330px; }
-    body footer div header div div.contact::before {
-      content: '';
-      display: block;
-      width: 15px;
-      height: 15px;
-      background-color: #4494e1;
-      margin-right: 9px; }
-  body footer div header div div.findonmap {
+  body footer div div div div.findonmap {
     width: 535px; }
-  body footer div header div div h2 {
+  body footer div div div div a img {
+    width: auto !important;
+    max-width: 250px; }
+  body footer div div div div div.soc {
+    margin-top: 35px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    body footer div div div div div.soc a {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      width: 39px;
+      height: 39px;
+      border: 1px solid #4494e1;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      border-radius: 50%; }
+      body footer div div div div div.soc a.yt {
+        margin-right: 10px; }
+  body footer div div div div div#eventcalendar header {
+    display: none; }
+  body footer div div div div div#eventcalendar table {
+    border-spacing: 1px; }
+    body footer div div div div div#eventcalendar table thead {
+      color: #666666;
+      font-family: "BPG Nateli Mtavruli";
+      font-size: 15px;
+      font-weight: bold; }
+      body footer div div div div div#eventcalendar table thead td {
+        text-align: center; }
+    body footer div div div div div#eventcalendar table tbody td {
+      text-align: center;
+      width: 49px;
+      height: 49px;
+      background-color: #b2cde6; }
+      body footer div div div div div#eventcalendar table tbody td .wrong-month {
+        display: none; }
+      body footer div div div div div#eventcalendar table tbody td:nth-child(6) {
+        background-color: #97bddf; }
+      body footer div div div div div#eventcalendar table tbody td:nth-child(7) {
+        background-color: #97bddf; }
+  body footer div div div div div#map {
+    width: 100%;
+    height: 100%; }
+  body footer div div div div ul li {
+    color: #333333;
+    font-family: "BPG Nateli Mtavruli";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 46px; }
+    body footer div div div div ul li::before {
+      content: '';
+      width: 15px;
+      height: 16px;
+      background-image: url("../images/contacticons.png");
+      display: inline-block;
+      margin-right: 10px; }
+    body footer div div div div ul li.address::before {
+      background-position: 0px 0px; }
+    body footer div div div div ul li.tell::before {
+      background-position: 0px -46px; }
+    body footer div div div div ul li.emil::before {
+      background-position: 0px -90px; }
+  body footer div header div.wrapper {
+    height: 100%; }
+  body footer div header div div {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
     -ms-flex-align: center;
-    align-items: center;
-    color: #094278;
-    font-family: "BPG Nateli Mtavruli";
-    font-size: 20px;
-    font-weight: bold; }
-    body footer div header div div h2 img {
-      margin-right: 10px; }
+    align-items: center; }
+    body footer div header div div.events {
+      width: 505px; }
+      body footer div header div div.events::before {
+        content: '';
+        display: block;
+        width: 15px;
+        height: 15px;
+        background-color: #4494e1;
+        margin-right: 9px; }
+    body footer div header div div.contact {
+      width: 330px; }
+      body footer div header div div.contact::before {
+        content: '';
+        display: block;
+        width: 15px;
+        height: 15px;
+        background-color: #4494e1;
+        margin-right: 9px; }
+    body footer div header div div.findonmap {
+      width: 535px; }
+    body footer div header div div h2 {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      color: #094278;
+      font-family: "BPG Nateli Mtavruli";
+      font-size: 20px;
+      font-weight: bold; }
+      body footer div header div div h2 img {
+        margin-right: 10px; }
