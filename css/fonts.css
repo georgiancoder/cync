@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'Roboto _ GEO Mt';
+    src: url('../fonts/Roboto_GEOMt.eot');
+    src: url('../fonts/Roboto_GEOMt.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Roboto_GEOMt.woff') format('woff'),
+    url('../fonts/Roboto_GEOMt.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BPG Nateli AsoMtavruli';
+    src: url('../fonts/BPGNateliAsoMtavruli.woff2') format('woff2'),
+    url('../fonts/BPGNateliAsoMtavruli.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'BPG Nateli';
+    src: url('../fonts/BPGNateli.woff2') format('woff2'),
+    url('../fonts/BPGNateli.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'BPG Nateli Mtavruli';
+    src: url('../fonts/BPGNateliMtavruli.woff2') format('woff2'),
+    url('../fonts/BPGNateliMtavruli.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'BPG Nateli Nusxuri';
+    src: url('../fonts/BPGNateliNusxuri.woff2') format('woff2'),
+    url('../fonts/BPGNateliNusxuri.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'BPG Nateli GPL & GNU';
+    src: url('../fonts/BPGNateliCapsGPLGNU.woff2') format('woff2'),
+    url('../fonts/BPGNateliCapsGPLGNU.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+

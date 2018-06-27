@@ -35,6 +35,15 @@ a {
   width: 1370px;
   margin: auto; }
 
+.jsCalendar-title-name {
+  display: none; }
+
+.jsCalendar-previous {
+  font-size: 0; }
+
+.jsCalendar-next {
+  display: none; }
+
 body > header {
   padding-bottom: 14px; }
   body > header::before {
@@ -173,6 +182,7 @@ body > header {
         -webkit-box-flex: 1;
         -ms-flex: 1;
         flex: 1;
+        white-space: nowrap;
         border-right: 1px solid #2b78c2;
         padding: 0 20px; }
         body > header nav div ul li:last-child {
@@ -334,6 +344,94 @@ body main section.news header {
     font-weight: bold; }
     body main section.news header a img {
       margin-right: 5px; }
+
+body main section.photovideo {
+  margin-top: 55px; }
+  body main section.photovideo .wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+    body main section.photovideo .wrapper div.video {
+      width: 530px;
+      position: relative; }
+      body main section.photovideo .wrapper div.video .play {
+        position: absolute;
+        top: 120px;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        transform: translateX(-50%); }
+      body main section.photovideo .wrapper div.video > img.thumb {
+        width: 100%;
+        height: 300px;
+        -o-object-fit: cover;
+        object-fit: cover;
+        -o-object-position: center center;
+        object-position: center center; }
+      body main section.photovideo .wrapper div.video h3 {
+        margin-top: 20px;
+        color: #333333;
+        font-family: "BPG Nateli Mtavruli";
+        font-size: 18px;
+        font-weight: bold; }
+    body main section.photovideo .wrapper .playlist {
+      width: 410px; }
+      body main section.photovideo .wrapper .playlist ul li {
+        cursor: pointer;
+        height: 90px;
+        border-radius: 3px;
+        background-color: #eeeeee;
+        margin-bottom: 15px;
+        padding: 15px 20px; }
+        body main section.photovideo .wrapper .playlist ul li time {
+          color: #327fc9;
+          font-family: "BPG Nateli Mtavruli";
+          font-size: 15px;
+          font-weight: bold; }
+        body main section.photovideo .wrapper .playlist ul li img {
+          vertical-align: middle; }
+        body main section.photovideo .wrapper .playlist ul li h3 {
+          margin-top: 10px;
+          color: #333333;
+          font-family: "BPG Nateli Mtavruli";
+          font-size: 15px;
+          font-weight: bold; }
+    body main section.photovideo .wrapper .links {
+      width: 380px; }
+      body main section.photovideo .wrapper .links a {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        height: 140px;
+        border: 1px solid #1ec6ac;
+        background-color: #ffffff;
+        margin-bottom: 10px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        color: #333333;
+        font-family: "BPG Nateli Mtavruli";
+        font-size: 22px;
+        font-weight: bold;
+        padding-left: 45px; }
+        body main section.photovideo .wrapper .links a.photo {
+          border-right: 14px solid #1ec6ac;
+          margin-bottom: 20px; }
+        body main section.photovideo .wrapper .links a.video {
+          border-color: #e3c01f;
+          border-right: 14px solid #e3c01f;
+          margin-bottom: 0; }
+        body main section.photovideo .wrapper .links a img {
+          margin-right: 20px; }
 
 body main section.camps {
   margin-top: 45px; }
@@ -649,7 +747,13 @@ body footer {
       text-align: center;
       width: 49px;
       height: 49px;
-      background-color: #b2cde6; }
+      background-color: #b2cde6;
+      color: #104a81;
+      font-family: Roboto;
+      font-size: 20px;
+      font-weight: bold; }
+      body footer div div div div div#eventcalendar table tbody td.jsCalendar-previous {
+        font-size: 0; }
       body footer div div div div div#eventcalendar table tbody td .wrong-month {
         display: none; }
       body footer div div div div div#eventcalendar table tbody td:nth-child(6) {

@@ -33,7 +33,15 @@ a {
   width: 1370px;
   margin: auto;
 }
-
+.jsCalendar-title-name{
+  display: none;
+}
+.jsCalendar-previous{
+  font-size: 0;
+}
+.jsCalendar-next{
+  display: none;
+}
 body{
   &>header{
     padding-bottom: 14px;
@@ -208,6 +216,7 @@ body{
           li{
             height: 100%;
             flex: 1;
+            white-space: nowrap;
             border-right: 1px solid #2b78c2;
             padding: 0 20px;
             &:last-child{
@@ -376,6 +385,97 @@ body{
             font-weight: bold;
             img{
               margin-right: 5px;
+            }
+          }
+        }
+      }
+      &.photovideo{
+        margin-top: 55px;
+        .wrapper{
+          display: flex;
+          align-items: flex-start;
+          justify-content: space-between;
+          div.video{
+            width: 530px;
+            position: relative;
+            .play{
+              position: absolute;
+              top: 120px;
+              left: 50%;
+              transform: translateX(-50%);
+            }
+            &>img.thumb{
+              width: 100%;
+              height: 300px;
+              object-fit: cover;
+              object-position: center center;
+            }
+            h3{
+              margin-top: 20px;
+              color: #333333;
+              font-family: "BPG Nateli Mtavruli";
+              font-size: 18px;
+              font-weight: bold;
+            }
+          }
+          .playlist{
+            width: 410px;
+            ul{
+              li{
+                cursor: pointer;
+                height: 90px;
+                border-radius: 3px;
+                background-color: #eeeeee;
+                margin-bottom: 15px;
+                padding: 15px 20px;
+                time{
+                  color: #327fc9;
+                  font-family: "BPG Nateli Mtavruli";
+                  font-size: 15px;
+                  font-weight: bold;
+                }
+                img{
+                  vertical-align: middle;
+                }
+                h3{
+                  margin-top: 10px;
+                  color: #333333;
+                  font-family: "BPG Nateli Mtavruli";
+                  font-size: 15px;
+                  font-weight: bold;
+                }
+              }
+            }
+          }
+          .links{
+            width: 380px;
+            a{
+              display: flex;
+              align-items: center;
+              height: 140px;
+              border: 1px solid #1ec6ac;
+              background-color: #ffffff;
+              margin-bottom: 10px;
+              -webkit-border-radius: 3px;
+              -moz-border-radius: 3px;
+              border-radius: 3px;
+              color: #333333;
+              font-family: "BPG Nateli Mtavruli";
+              font-size: 22px;
+              font-weight: bold;
+              padding-left: 45px;
+              &.photo{
+                border-right: 14px solid #1ec6ac;
+                margin-bottom: 20px;
+              }
+              &.video{
+                border-color: #e3c01f;
+                border-right: 14px solid #e3c01f;
+                margin-bottom: 0;
+              }
+              img{
+                margin-right: 20px;
+              }
             }
           }
         }
@@ -733,6 +833,13 @@ body{
                       width: 49px;
                       height: 49px;
                       background-color: #b2cde6;
+                      color: #104a81;
+                      font-family: Roboto;
+                      font-size: 20px;
+                      font-weight: bold;
+                      &.jsCalendar-previous{
+                        font-size: 0;
+                      }
                       .wrong-month{
                         display: none;
                       }

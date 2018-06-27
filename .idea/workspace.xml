@@ -2,35 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eae2f413-7056-4bef-97a3-723be38e6775" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/images/contrast1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/contrast2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/contrast3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/contrast4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/contrast5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/finansta-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/ganatleba-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/layer-17.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/maincarouselnext.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/maincarouselprev.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/newsarchive.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/normal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/partnernext.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/partnerprev.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/scale.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/shrink.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/sporti-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/vector-smart-object.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/zoomin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/zoomout.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/fonts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/jsCalendar.lang.template.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/jsCalendar.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/vector-smart-object.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/index.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/layout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/partners.pug" beforeDir="false" afterPath="$PROJECT_DIR$/partners.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout.pug" beforeDir="false" afterPath="$PROJECT_DIR$/layout.pug" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,20 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.pug" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.pug">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
-              <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="main.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="421" column="24" selection-start-line="421" selection-start-column="24" selection-end-line="421" selection-end-column="24" />
+            <state relative-caret-position="468">
+              <caret line="840" column="36" selection-start-line="840" selection-start-column="36" selection-end-line="840" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -66,12 +41,20 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>img</find>
+      <find>programs</find>
+      <find>nav</find>
+      <find>.camp</find>
+      <find>robot</find>
+      <find>nateli</find>
+      <find>BPG Nateli</find>
+      <find>font-family: &quot;BPG Nateli&quot;;</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -81,7 +64,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/partners.pug" />
+        <option value="$PROJECT_DIR$/js/jsCalendar.lang.template.js" />
         <option value="$PROJECT_DIR$/js/main.ts" />
+        <option value="$PROJECT_DIR$/../transfonter.org-20180627-204700/stylesheet.css" />
+        <option value="$PROJECT_DIR$/css/fonts.css" />
         <option value="$PROJECT_DIR$/layout.pug" />
         <option value="$PROJECT_DIR$/index.pug" />
         <option value="$PROJECT_DIR$/css/main.scss" />
@@ -137,6 +123,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -146,9 +133,12 @@
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\geocoder\Desktop\CYNC\css" />
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\geocoder\Desktop\CYNC\js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\geocoder\Desktop\CYNC\js" />
+      <recent name="C:\Users\geocoder\Desktop\CYNC\css" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -223,7 +213,9 @@
       <workItem from="1529598259334" duration="5804000" />
       <workItem from="1529607828523" duration="52000" />
       <workItem from="1529775726224" duration="4004000" />
-      <workItem from="1529862596475" duration="1093000" />
+      <workItem from="1529862596475" duration="1568000" />
+      <workItem from="1529951635402" duration="1427000" />
+      <workItem from="1530119450660" duration="11152000" />
     </task>
     <task id="LOCAL-00001" summary="home page styles">
       <created>1529850168599</created>
@@ -232,18 +224,41 @@
       <option name="project" value="LOCAL" />
       <updated>1529850168599</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="camps">
+      <created>1529863776598</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1529863776598</updated>
+    </task>
+    <task id="LOCAL-00003" summary="programs styles">
+      <created>1529953032998</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1529953032998</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17953000" />
+    <option name="totallyTimeSpent" value="31007000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32900432" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -257,7 +272,7 @@
       <window_info id="Capture Tool" order="2" />
       <window_info anchor="bottom" id="TypeScript" order="8" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26865673" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2739872" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -289,7 +304,9 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="home page styles" />
-    <option name="LAST_COMMIT_MESSAGE" value="home page styles" />
+    <MESSAGE value="camps" />
+    <MESSAGE value="programs styles" />
+    <option name="LAST_COMMIT_MESSAGE" value="programs styles" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/layout.html">
@@ -363,31 +380,61 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/jsCalendar.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jsCalendar.lang.template.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/main.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        <state relative-caret-position="374">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../vineria/css/fonts.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="40" selection-start-line="40" selection-end-line="48" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../transfonter.org-20180627-204700/stylesheet.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/fonts.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/layout.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="606">
-          <caret line="80" column="58" selection-start-line="80" selection-start-column="58" selection-end-line="80" selection-end-column="58" />
+        <state relative-caret-position="270">
+          <caret line="77" column="62" lean-forward="true" selection-start-line="77" selection-start-column="62" selection-end-line="77" selection-end-column="62" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
+        <state relative-caret-position="85">
+          <caret line="4" column="305" selection-start-line="4" selection-start-column="305" selection-end-line="4" selection-end-column="305" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="421" column="24" selection-start-line="421" selection-start-column="24" selection-end-line="421" selection-end-column="24" />
+        <state relative-caret-position="468">
+          <caret line="840" column="36" selection-start-line="840" selection-start-column="36" selection-end-line="840" selection-end-column="36" />
         </state>
       </provider>
     </entry>
