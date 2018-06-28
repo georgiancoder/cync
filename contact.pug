@@ -1,0 +1,35 @@
+extends layout.pug
+
+block content
+    include breadcrumbs.pug
+    section.contact
+        .wrapper
+            form
+                .l
+                    .fc
+                        label თქვენი სახელი
+                        input(type="text")
+                    .fc
+                        label ელ-ფოსტა
+                        input(type="text")
+                    .fc
+                        label თემა
+                        input(type="text")
+                .r
+                    label გზავნილი
+                    textarea
+                button(type="submit") მოთხოვნა
+            address
+                ul
+                    li.address
+                        | ქ.თბილისი,<br> ვაჟა-ფშაველას გამზ. 76 ბ
+                    li.tell
+                        | +995 32 2 30 22 53
+                    li.emil
+                        a(href="mailto: contact@cync.ge") Contact@cync.ge
+                .soc
+                    a(href="" target="_blank" class="yt")
+                        img(src="images/youtube.png")
+                    a(href="" target="_blank" class="fb")
+                        img(src="images/fb.png")
+        #map2

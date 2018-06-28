@@ -363,6 +363,172 @@ body{
       }
     }
     section{
+      &.breadcrumbs{
+        width: 100%;
+        height: 70px;
+        background-color: #e3f0fc;
+        .wrapper{
+          padding: 0 25px;
+          height: 100%;
+          ul{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            li{
+              &::after{
+                content: url("../images/breadcrumbarrow.png");
+                display: inline-block;
+                vertical-align: middle;
+                margin-left: 20px;
+
+              }
+              font-family: "Roboto _ GEO Mt";
+              font-size: 16px;
+              font-weight: bold;
+              color: #666666;
+              margin-right: 20px;
+              &:last-child{
+                color: #1e5c97;
+                &::after{
+                  display: none;
+                }
+              }
+            }
+          }
+        }
+      }
+      &.contact{
+        margin-top: 45px;
+        #map2{
+          margin-top: 95px;
+          width: 100%;
+          height: 615px;
+          border-top: 30px solid #cecece;
+          border-bottom: 30px solid #cecece;
+        }
+        .wrapper{
+          display: flex;
+          padding: 0 25px;
+          form{
+            display: flex;
+            flex-wrap: wrap;
+            width: 308px + 345px + 271px;
+            .fc{
+              margin-bottom: 20px;
+            }
+            label{
+              color: #262626;
+              font-family: "Roboto _ GEO Nus";
+              font-size: 14px;
+              font-weight: bold;
+              line-height: 38.09px;
+              display: block;
+            }
+            input[type=text]{
+              width: 100%;
+              height: 44px;
+              padding: 0 25px;
+              border-radius: 5px;
+              border: 1px solid #c8d8e4;
+            }
+            .l{
+              width: 315px;
+
+            }
+            button{
+              display: block;
+              margin-top: 27px;
+              height: 54px;
+              border-radius: 5px;
+              background-color: #1e5c97;
+              padding: 0 40px;
+              color: #ffffff;
+              font-family: "Roboto _ GEO Mt";
+              font-size: 16px;
+              font-weight: bold;
+              line-height: 42px;
+              margin-left: auto;
+            }
+            .r{
+              width: calc(100% - 315px);
+              padding-left: 40px;
+              textarea{
+                width: 100%;
+                height: 248px;
+                border: 1px solid #c8d8e4;
+                resize: none;
+                border-radius: 5px;
+                padding: 25px;
+              }
+            }
+          }
+          address{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: calc(100% - 924px);
+            padding-top: 40px;
+            ul{
+              li{
+                text-align: center;
+                color: #333333;
+                font-family: "BPG Nateli Mtavruli";
+                font-size: 16px;
+                font-weight: 400;
+                margin-bottom: 45px;
+                &::before{
+                  content: '';
+                  width: 15px;
+                  height: 16px;
+                  background-image: url("../images/contacticons.png");
+                  display: block;
+                  margin: auto;
+                  margin-bottom: 10px;
+                }
+                &.address{
+                  &::before{
+                    background-position: 0px 0px;
+                  }
+                }
+                &.tell{
+                  &::before{
+                    background-position: 0px -46px;
+                  }
+                }
+                &.emil{
+                  &::before{
+                    background-position: 0px -90px;
+                  }
+                }
+              }
+            }
+            .soc{
+              display: flex;
+              a{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 39px;
+                height: 39px;
+                border: 1px solid #4494e1;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                border-radius: 50%;
+                &.yt{
+                  margin-right: 10px;
+                }
+                &.fb{
+
+                }
+                img{
+                }
+              }
+            }
+          }
+        }
+      }
       &.news{
         header{
           margin-top: 45px;

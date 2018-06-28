@@ -322,6 +322,157 @@ body main div div div article {
       width: auto !important;
       margin-right: 10px; }
 
+body main section.breadcrumbs {
+  width: 100%;
+  height: 70px;
+  background-color: #e3f0fc; }
+  body main section.breadcrumbs .wrapper {
+    padding: 0 25px;
+    height: 100%; }
+    body main section.breadcrumbs .wrapper ul {
+      width: 100%;
+      height: 100%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+      body main section.breadcrumbs .wrapper ul li {
+        font-family: "Roboto _ GEO Mt";
+        font-size: 16px;
+        font-weight: bold;
+        color: #666666;
+        margin-right: 20px; }
+        body main section.breadcrumbs .wrapper ul li::after {
+          content: url("../images/breadcrumbarrow.png");
+          display: inline-block;
+          vertical-align: middle;
+          margin-left: 20px; }
+        body main section.breadcrumbs .wrapper ul li:last-child {
+          color: #1e5c97; }
+          body main section.breadcrumbs .wrapper ul li:last-child::after {
+            display: none; }
+
+body main section.contact {
+  margin-top: 45px; }
+  body main section.contact #map2 {
+    margin-top: 95px;
+    width: 100%;
+    height: 615px;
+    border-top: 30px solid #cecece;
+    border-bottom: 30px solid #cecece; }
+  body main section.contact .wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0 25px; }
+    body main section.contact .wrapper form {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      width: 924px; }
+      body main section.contact .wrapper form .fc {
+        margin-bottom: 20px; }
+      body main section.contact .wrapper form label {
+        color: #262626;
+        font-family: "Roboto _ GEO Nus";
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 38.09px;
+        display: block; }
+      body main section.contact .wrapper form input[type=text] {
+        width: 100%;
+        height: 44px;
+        padding: 0 25px;
+        border-radius: 5px;
+        border: 1px solid #c8d8e4; }
+      body main section.contact .wrapper form .l {
+        width: 315px; }
+      body main section.contact .wrapper form button {
+        display: block;
+        margin-top: 27px;
+        height: 54px;
+        border-radius: 5px;
+        background-color: #1e5c97;
+        padding: 0 40px;
+        color: #ffffff;
+        font-family: "Roboto _ GEO Mt";
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 42px;
+        margin-left: auto; }
+      body main section.contact .wrapper form .r {
+        width: calc(100% - 315px);
+        padding-left: 40px; }
+        body main section.contact .wrapper form .r textarea {
+          width: 100%;
+          height: 248px;
+          border: 1px solid #c8d8e4;
+          resize: none;
+          border-radius: 5px;
+          padding: 25px; }
+    body main section.contact .wrapper address {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      width: calc(100% - 924px);
+      padding-top: 40px; }
+      body main section.contact .wrapper address ul li {
+        text-align: center;
+        color: #333333;
+        font-family: "BPG Nateli Mtavruli";
+        font-size: 16px;
+        font-weight: 400;
+        margin-bottom: 45px; }
+        body main section.contact .wrapper address ul li::before {
+          content: '';
+          width: 15px;
+          height: 16px;
+          background-image: url("../images/contacticons.png");
+          display: block;
+          margin: auto;
+          margin-bottom: 10px; }
+        body main section.contact .wrapper address ul li.address::before {
+          background-position: 0px 0px; }
+        body main section.contact .wrapper address ul li.tell::before {
+          background-position: 0px -46px; }
+        body main section.contact .wrapper address ul li.emil::before {
+          background-position: 0px -90px; }
+      body main section.contact .wrapper address .soc {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex; }
+        body main section.contact .wrapper address .soc a {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          justify-content: center;
+          width: 39px;
+          height: 39px;
+          border: 1px solid #4494e1;
+          -webkit-border-radius: 50%;
+          -moz-border-radius: 50%;
+          border-radius: 50%; }
+          body main section.contact .wrapper address .soc a.yt {
+            margin-right: 10px; }
+
 body main section.news header {
   margin-top: 45px;
   display: -webkit-box;
