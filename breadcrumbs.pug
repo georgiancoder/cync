@@ -1,6 +1,6 @@
 section.breadcrumbs
     .wrapper
         ul
-            li
-                a მთავარი
-            li კონტაქტი
+            each val in breadcrumbs
+                li
+                    a=val

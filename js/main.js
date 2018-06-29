@@ -57,6 +57,7 @@ $(document).ready(function () {
         nav: true,
         items: 1
     });
+    $("#lightgallery").lightGallery();
 });
 var map;
 var map2;

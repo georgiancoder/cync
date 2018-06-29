@@ -62,6 +62,8 @@ $(document).ready(()=>{
         nav:true,
         items: 1
     });
+
+    $("#lightgallery").lightGallery();
 });
 
 let map;

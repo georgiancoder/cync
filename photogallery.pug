@@ -1,0 +1,19 @@
+extends layout.pug
+
+block content
+    -var breadcrumbs = ["მთავარი","ფოტო გალერეა"]
+        include breadcrumbs.pug
+        section.page
+            .wrapper
+                -var sidebarMenu = [{name: 'ფოტო გალერეა', link: 'photogallery.html'},{name: 'ვიდეო გალერეა',link: ''}]
+                include sidebarmenu.pug
+                .pagecontent
+                    .photogallery
+                        time 14 თებერვალი, 2018
+                        h3 ურთიერთთანამშრომლობის მემორანდუმი
+                        .desc „საზაფხულო სკოლების“ პროგრამის „დავისვენოთ და ვისწავლოთ ერთად“ ფარგლებში მანავის ბანაკს მოსწავლეების პირველი ნაკადი ესტუმრა. ოფიციალურ გახსნას სპორტისა და ახალგაზრდობის საქმეთა მინისტრის მოადგილე რევაზ ჯაველიძე, თავდაცვის მინისტრის მოადგილე ნუკრი გელაშვილი, ბავშვთა და ახალგაზრდობის ეროვნული ცენტრის უფროსი გიგა გაბელაია, ცენტრის უფროსის მოადგილე ნინო ვადაჭკორია და მოწვეული სტუმრები ესწრებოდნენ. მათ მოზარდებს სიტყვით მიმართეს და ნაყოფიერი დასვენება უსურვეს.
+                        a.fbshare <img src="images/fbshare.png"> გაზიარება
+                        #lightgallery
+                            -for(i=0; i<10; i++)
+                                a(href="images/layer-13.png")
+                                    img(src="images/layer-13.png")

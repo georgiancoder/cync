@@ -356,6 +356,87 @@ body main section.breadcrumbs {
           body main section.breadcrumbs .wrapper ul li:last-child::after {
             display: none; }
 
+body main section.page {
+  margin-top: 50px; }
+  body main section.page .wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    body main section.page .wrapper aside {
+      width: 335px;
+      padding: 0 25px; }
+      body main section.page .wrapper aside ul li {
+        color: #666666;
+        font-family: "Roboto _ GEO Mt";
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 16px;
+        margin-bottom: 15px; }
+        body main section.page .wrapper aside ul li::before {
+          content: url("../images/asidemenuarrow.png");
+          margin-right: 7px; }
+        body main section.page .wrapper aside ul li::after {
+          content: '';
+          display: block;
+          margin-top: 15px;
+          width: 54px;
+          height: 1px;
+          background-color: #e8e8e8;
+          margin-left: 15px; }
+    body main section.page .wrapper .pagecontent {
+      width: calc(100% - 335px); }
+      body main section.page .wrapper .pagecontent .photogallery {
+        padding-right: 25px; }
+        body main section.page .wrapper .pagecontent .photogallery time {
+          color: #1e5c97;
+          font-family: "BPG Nateli Mtavruli";
+          font-size: 12px;
+          font-weight: bold; }
+        body main section.page .wrapper .pagecontent .photogallery h3 {
+          color: #333333;
+          font-family: "BPG Nateli Mtavruli";
+          font-size: 20px;
+          font-weight: bold;
+          margin-top: 15px; }
+        body main section.page .wrapper .pagecontent .photogallery .desc {
+          margin-top: 25px;
+          color: #333333;
+          font-family: "BPG Nateli";
+          font-size: 16px;
+          font-weight: bold; }
+        body main section.page .wrapper .pagecontent .photogallery .fbshare {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          margin-top: 30px;
+          color: #333333;
+          font-family: "BPG Nateli Mtavruli";
+          font-size: 20px;
+          font-weight: bold; }
+          body main section.page .wrapper .pagecontent .photogallery .fbshare img {
+            margin-right: 10px; }
+        body main section.page .wrapper .pagecontent .photogallery #lightgallery {
+          margin-top: 30px;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -ms-flex-wrap: wrap;
+          flex-wrap: wrap; }
+          body main section.page .wrapper .pagecontent .photogallery #lightgallery a {
+            display: block;
+            width: 325px;
+            height: 248px;
+            margin-right: 17px;
+            margin-bottom: 13px;
+            overflow: hidden; }
+            body main section.page .wrapper .pagecontent .photogallery #lightgallery a:nth-child(3n + 3) {
+              margin-right: 0; }
+            body main section.page .wrapper .pagecontent .photogallery #lightgallery a img {
+              width: 100%; }
+
 body main section.contact {
   margin-top: 45px; }
   body main section.contact #map2 {

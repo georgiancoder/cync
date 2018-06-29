@@ -399,6 +399,97 @@ body{
           }
         }
       }
+      &.page{
+       margin-top: 50px;
+        .wrapper{
+          display: flex;
+          aside{
+            width: 335px;
+            padding: 0 25px;
+            ul{
+              li{
+                color: #666666;
+                font-family: "Roboto _ GEO Mt";
+                font-size: 16px;
+                font-weight: bold;
+                line-height: 16px;
+                margin-bottom: 15px;
+                &::before{
+                  content: url("../images/asidemenuarrow.png");
+                  margin-right: 7px;
+                }
+                &::after{
+                  content: '';
+                  display: block;
+                  margin-top: 15px;
+                  width: 54px;
+                  height: 1px;
+                  background-color: #e8e8e8;
+                  margin-left: 15px;
+                }
+              }
+            }
+          }
+          .pagecontent{
+            width: calc(100% - 335px);
+            .photogallery{
+              padding-right: 25px;
+              time{
+                color: #1e5c97;
+                font-family: "BPG Nateli Mtavruli";
+                font-size: 12px;
+                font-weight: bold;
+              }
+              h3{
+                color: #333333;
+                font-family: "BPG Nateli Mtavruli";
+                font-size: 20px;
+                font-weight: bold;
+                margin-top: 15px;
+              }
+              .desc{
+                margin-top: 25px;
+                color: #333333;
+                font-family: "BPG Nateli";
+                font-size: 16px;
+                font-weight: bold;
+              }
+              .fbshare{
+                display: flex;
+                align-items: center;
+                margin-top: 30px;
+                color: #333333;
+                font-family: "BPG Nateli Mtavruli";
+                font-size: 20px;
+                font-weight: bold;
+                img{
+                  margin-right: 10px;
+                }
+              }
+              #lightgallery{
+                margin-top: 30px;
+                display: flex;
+                flex-wrap: wrap;
+                a{
+                  display: block;
+                  width: 325px;
+                  height: 248px;
+                  margin-right: 17px;
+                  margin-bottom: 13px;
+                  overflow: hidden;
+                  &:nth-child(3n + 3){
+                    margin-right: 0;
+                  }
+                  img{
+                    width: 100%;
+
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
       &.contact{
         margin-top: 45px;
         #map2{
