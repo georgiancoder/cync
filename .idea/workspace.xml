@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eae2f413-7056-4bef-97a3-723be38e6775" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/photogalleryinner.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/photogallery.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/photogallery.pug" beforeDir="false" afterPath="$PROJECT_DIR$/photogallery.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepros-6.config" beforeDir="false" afterPath="$PROJECT_DIR$/prepros-6.config" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,17 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="photogalleryinner.pug" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/photogalleryinner.pug">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="99" selection-start-line="14" selection-start-column="99" selection-end-line="14" selection-end-column="99" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -56,6 +42,8 @@
       <find>.soc</find>
       <find>addre</find>
       <find>address</find>
+      <find>aside</find>
+      <find>pagecontent</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -75,10 +63,10 @@
         <option value="$PROJECT_DIR$/sidebarmenu.pug" />
         <option value="$PROJECT_DIR$/layout.pug" />
         <option value="$PROJECT_DIR$/js/main.ts" />
-        <option value="$PROJECT_DIR$/css/main.scss" />
         <option value="$PROJECT_DIR$/index.pug" />
-        <option value="$PROJECT_DIR$/photogallery.pug" />
         <option value="$PROJECT_DIR$/photogalleryinner.pug" />
+        <option value="$PROJECT_DIR$/css/main.scss" />
+        <option value="$PROJECT_DIR$/photogallery.pug" />
       </list>
     </option>
   </component>
@@ -102,7 +90,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -114,12 +101,23 @@
             <path>
               <item name="CYNC" type="b2602c69:ProjectViewProjectNode" />
               <item name="CYNC" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CYNC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CYNC" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CYNC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CYNC" type="462c0819:PsiDirectoryNode" />
+              <item name="photogalleryinner.pug" type="620a8d5e:NestingTreeNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -225,7 +223,8 @@
       <workItem from="1530199399711" duration="2380000" />
       <workItem from="1530207184567" duration="3966000" />
       <workItem from="1530216983397" duration="2581000" />
-      <workItem from="1530286015317" duration="7405000" />
+      <workItem from="1530286015317" duration="7481000" />
+      <workItem from="1530306091746" duration="1621000" />
     </task>
     <task id="LOCAL-00001" summary="home page styles">
       <created>1529850168599</created>
@@ -276,11 +275,25 @@
       <option name="project" value="LOCAL" />
       <updated>1530300355975</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="gallery page share">
+      <created>1530301373534</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1530301373534</updated>
+    </task>
+    <task id="LOCAL-00009" summary="gallery">
+      <created>1530307698345</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1530307698345</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47523000" />
+    <option name="totallyTimeSpent" value="49220000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -293,7 +306,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32900432" />
@@ -310,7 +322,7 @@
       <window_info id="Capture Tool" order="2" />
       <window_info anchor="bottom" id="TypeScript" order="8" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2867804" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28997868" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -348,7 +360,9 @@
     <MESSAGE value="contact page" />
     <MESSAGE value="added readme" />
     <MESSAGE value="gallery page" />
-    <option name="LAST_COMMIT_MESSAGE" value="gallery page" />
+    <MESSAGE value="gallery page share" />
+    <MESSAGE value="gallery" />
+    <option name="LAST_COMMIT_MESSAGE" value="gallery" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/contact.pug">
@@ -523,20 +537,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="652">
-          <caret line="476" column="34" selection-start-line="476" selection-start-column="34" selection-end-line="476" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/photogallery.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -546,8 +546,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/photogalleryinner.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="99" selection-start-line="14" selection-start-column="99" selection-end-line="14" selection-end-column="99" />
+        <state relative-caret-position="170">
+          <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/photogallery.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="635">
+          <caret line="525" column="33" selection-start-line="525" selection-start-column="33" selection-end-line="525" selection-end-column="33" />
+          <folding>
+            <element signature="e#10293#11901#0" />
+          </folding>
         </state>
       </provider>
     </entry>
