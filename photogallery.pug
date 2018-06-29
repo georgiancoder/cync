@@ -1,1 +1,19 @@
 extends layout.pug
+
+block content
+    -var breadcrumbs = ["მთავარი","ფოტო გალერეა"]
+    include breadcrumbs.pug
+    section.page
+        .wrapper
+            -var sidebarMenu = [{name: 'ფოტო გალერეა', link: 'photogallery.html'},{name: 'ვიდეო გალერეა',link: ''}]
+            include sidebarmenu.pug
+            .pagecontent
+                .gallery
+                    -for(i=0; i<9; i++)
+                        .g
+                            .img(style="background-image: url('../images/layer-12.png')")
+                                .b
+                                    time 14 თებერვალი, 2018
+                                    span.foto 22 ფოტო
+                            h3
+                                a(href="photogalleryinner.html") ურთიერთთანამშრომლობის მემორანდუმი
