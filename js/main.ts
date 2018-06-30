@@ -71,6 +71,9 @@ $(document).ready(()=>{
         $("aside.news div").removeClass('active');
         $(this).addClass('active');
     });
+
+
+    $("#newsslider").lightSlider();
 });
 
 let map;

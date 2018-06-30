@@ -64,6 +64,7 @@ $(document).ready(function () {
         $("aside.news div").removeClass('active');
         $(this).addClass('active');
     });
+    $("#newsslider").lightSlider();
 });
 var map;
 var map2;
