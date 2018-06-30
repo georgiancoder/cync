@@ -65,7 +65,7 @@
         <div class="wrapper">
           <ul>
             <li><a>მთავარი</a></li>
-            <li><a>ფოტო გალერეა</a></li>
+            <li><a>საჯარო ინფორმაციის მოთხოვნა</a></li>
           </ul>
         </div>
       </section>
@@ -73,17 +73,65 @@
         <div class="wrapper">
           <aside>
             <ul>
-              <li><a href="photogallery.html">ფოტო გალერეა</a></li>
-              <li><a href="">ვიდეო გალერეა</a></li>
+              <li><a href="">ზოგადი ინფორმაცია</a></li>
+              <li><a href="">საკადრო უზრუნველყოფა</a></li>
+              <li><a href="">ვაკანსიები</a></li>
+              <li><a href="">სამართლებრივი აქტები</a></li>
+              <li><a href="">ბიუჯეტი</a></li>
+              <li><a href="">ელექტრონული მოთხოვნები</a></li>
+              <li><a href="">სახელმწიფო შესყიდვები</a></li>
             </ul>
           </aside>
           <div class="pagecontent">
-            <div class="photogallery">
-              <time>14 თებერვალი, 2018</time>
-              <h3>ურთიერთთანამშრომლობის მემორანდუმი</h3>
-              <div class="desc">„საზაფხულო სკოლების“ პროგრამის „დავისვენოთ და ვისწავლოთ ერთად“ ფარგლებში მანავის ბანაკს მოსწავლეების პირველი ნაკადი ესტუმრა. ოფიციალურ გახსნას სპორტისა და ახალგაზრდობის საქმეთა მინისტრის მოადგილე რევაზ ჯაველიძე, თავდაცვის მინისტრის მოადგილე ნუკრი გელაშვილი, ბავშვთა და ახალგაზრდობის ეროვნული ცენტრის უფროსი გიგა გაბელაია, ცენტრის უფროსის მოადგილე ნინო ვადაჭკორია და მოწვეული სტუმრები ესწრებოდნენ. მათ მოზარდებს სიტყვით მიმართეს და ნაყოფიერი დასვენება უსურვეს.</div><a class="fbshare" href="https://www.facebook.com/sharer/sharer.php?u=http://cync.ge"><img src="images/fbshare.png"> გაზიარება</a>
-              <div id="lightgallery"><a href="https://www.youtube.com/watch?v=ZTK7FTSqk90"><img src="https://img.youtube.com/vi/ZTK7FTSqk90/0.jpg"></a><a href="https://www.youtube.com/watch?v=ZTK7FTSqk90"><img src="https://img.youtube.com/vi/ZTK7FTSqk90/0.jpg"></a><a href="https://www.youtube.com/watch?v=ZTK7FTSqk90"><img src="https://img.youtube.com/vi/ZTK7FTSqk90/0.jpg"></a><a href="https://www.youtube.com/watch?v=ZTK7FTSqk90"><img src="https://img.youtube.com/vi/ZTK7FTSqk90/0.jpg"></a><a href="https://www.youtube.com/watch?v=ZTK7FTSqk90"><img src="https://img.youtube.com/vi/ZTK7FTSqk90/0.jpg"></a><a href="https://www.youtube.com/watch?v=ZTK7FTSqk90"><img src="https://img.youtube.com/vi/ZTK7FTSqk90/0.jpg"></a><a href="https://www.youtube.com/watch?v=ZTK7FTSqk90"><img src="https://img.youtube.com/vi/ZTK7FTSqk90/0.jpg"></a><a href="https://www.youtube.com/watch?v=ZTK7FTSqk90"><img src="https://img.youtube.com/vi/ZTK7FTSqk90/0.jpg"></a><a href="https://www.youtube.com/watch?v=ZTK7FTSqk90"><img src="https://img.youtube.com/vi/ZTK7FTSqk90/0.jpg"></a>
-              </div>
+            <div class="publicinfo">
+              <form>
+                <div class="person">
+                  <input type="radio" name="person" id="iuridiuli" checked>
+                  <label for="iuridiuli">იურიდიული პირი</label>
+                  <input type="radio" name="person" id="fizikuri">
+                  <label for="fizikuri">ფიზიკური პირი</label>
+                </div>
+                <div class="inputs">
+                  <div class="fc">
+                    <label>იურიდიული პირის დასახელება *</label>
+                    <input type="text" required>
+                  </div>
+                  <div class="fc">
+                    <label>ტელეფონი *</label>
+                    <input type="text" required>
+                  </div>
+                  <div class="fc">
+                    <label>საიდენტიფიკაციო ნომერი *</label>
+                    <input type="text" required>
+                  </div>
+                  <div class="fc">
+                    <label>ხელმძღვანელი პირის სახელი *</label>
+                    <input type="text" required>
+                  </div>
+                  <div class="fc">
+                    <label>იურიდიული მისამართი *</label>
+                    <input type="text" required>
+                  </div>
+                  <div class="fc">
+                    <label>ხელმძღვანელი პირის გვარი *</label>
+                    <input type="text" required>
+                  </div>
+                  <div class="fc">
+                    <label>ელ-ფოსტა *</label>
+                    <input type="text" required>
+                  </div>
+                  <div class="fc">
+                    <label>რა საშუალებით გსურთ მიიღოთ პასუხი *</label>
+                    <select required>
+                      <option>ელექტრონული ფოსტით</option>
+                      <option>sms-ით</option>
+                    </select>
+                  </div>
+                </div>
+                <label>ტექსტი</label>
+                <textarea></textarea>
+                <button type="submit">მოთხოვნა</button>
+              </form>
             </div>
           </div>
         </div>

@@ -1,0 +1,47 @@
+extends layout.pug
+
+block content
+    -var breadcrumbs = ["მთავარი","საჯარო ინფორმაციის მოთხოვნა"]
+    include breadcrumbs.pug
+    section.page
+        .wrapper
+            -var sidebarMenu = [{name: 'ზოგადი ინფორმაცია', link: ''},{name: 'საკადრო უზრუნველყოფა', link: ''},{name: 'ვაკანსიები', link: ''},{name: 'სამართლებრივი აქტები', link: ''},{name: 'ბიუჯეტი', link: ''},{name: 'ელექტრონული მოთხოვნები', link: ''},{name: 'სახელმწიფო შესყიდვები', link: ''}]
+            include sidebarmenu.pug
+            .pagecontent
+                .publicinfo
+                    form
+                        .person
+                            input(type="radio" name="person" id="iuridiuli" checked)
+                            label(for="iuridiuli") იურიდიული პირი
+                            input(type="radio" name="person" id="fizikuri")
+                            label(for="fizikuri") ფიზიკური პირი
+                        .inputs
+                            .fc
+                                label იურიდიული პირის დასახელება *
+                                input(type="text" required)
+                            .fc
+                                label ტელეფონი *
+                                input(type="text" required)
+                            .fc
+                                label საიდენტიფიკაციო ნომერი *
+                                input(type="text" required)
+                            .fc
+                                label ხელმძღვანელი პირის სახელი *
+                                input(type="text" required)
+                            .fc
+                                label იურიდიული მისამართი *
+                                input(type="text" required)
+                            .fc
+                                label ხელმძღვანელი პირის გვარი *
+                                input(type="text" required)
+                            .fc
+                                label ელ-ფოსტა *
+                                input(type="text" required)
+                            .fc
+                                label რა საშუალებით გსურთ მიიღოთ პასუხი *
+                                select(required)
+                                    option ელექტრონული ფოსტით
+                                    option sms-ით
+                        label ტექსტი
+                        textarea
+                        button(type="submit") მოთხოვნა
