@@ -64,7 +64,17 @@ $(document).ready(function () {
         $("aside.news div").removeClass('active');
         $(this).addClass('active');
     });
-    $("#newsslider").lightSlider();
+    $("#newsslider").lightSlider({
+        loop: true,
+        onSliderLoad: function (el) {
+            var img = $(el[0]).find('li.active').data('img');
+            $(".mainslide").css('background-image', "url(\"" + img + "\")");
+        },
+        onAfterSlide: function (el) {
+            var img = $(el[0]).find('li.active').data('img');
+            $(".mainslide").css('background-image', "url(\"" + img + "\")");
+        }
+    });
 });
 var map;
 var map2;

@@ -44,6 +44,20 @@ a {
 .jsCalendar-next {
   display: none; }
 
+.lSAction {
+  display: none !important; }
+
+.lSPager {
+  margin-top: 25px !important; }
+
+.lSSlideOuter .lSPager.lSpg > li > a {
+  width: 10px;
+  height: 10px;
+  background-color: #c7cbcf; }
+
+.lSSlideOuter .lSPager.lSpg > li.active > a {
+  background-color: #1e5c97; }
+
 body > header {
   padding-bottom: 14px; }
   body > header::before {
@@ -422,6 +436,146 @@ body main section.page {
             body main section.page .wrapper aside.news > div.active ul {
               margin-top: 25px;
               display: block; }
+    body main section.page .wrapper .newsinner a.back {
+      display: block;
+      color: #cccccc;
+      font-family: "Roboto _ GEO Mt";
+      font-size: 16px;
+      font-weight: bold;
+      line-height: 42px; }
+      body main section.page .wrapper .newsinner a.back img {
+        margin-right: 10px; }
+    body main section.page .wrapper .newsinner .newscontent {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+      body main section.page .wrapper .newsinner .newscontent .newsgallery {
+        text-align: center;
+        width: 420px; }
+        body main section.page .wrapper .newsinner .newscontent .newsgallery .mainslide {
+          width: 100%;
+          height: 330px;
+          position: relative;
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center; }
+          body main section.page .wrapper .newsinner .newscontent .newsgallery .mainslide button {
+            position: absolute;
+            bottom: 25px;
+            left: 25px; }
+      body main section.page .wrapper .newsinner .newscontent #newsslider {
+        margin-top: 15px; }
+        body main section.page .wrapper .newsinner .newscontent #newsslider li {
+          width: 130px;
+          height: 105px; }
+          body main section.page .wrapper .newsinner .newscontent #newsslider li img {
+            width: 100%;
+            height: 100%;
+            -o-object-fit: cover;
+            object-fit: cover;
+            -o-object-position: center;
+            object-position: center; }
+      body main section.page .wrapper .newsinner .newscontent a.fbshare {
+        margin-top: 30px;
+        display: -webkit-inline-box;
+        display: -ms-inline-flexbox;
+        display: inline-flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        color: #333333;
+        font-family: "BPG Nateli Mtavruli";
+        font-size: 20px;
+        font-weight: bold; }
+        body main section.page .wrapper .newsinner .newscontent a.fbshare img {
+          display: block;
+          margin-bottom: 14px; }
+      body main section.page .wrapper .newsinner .newscontent .textcontent {
+        width: calc(100% - 420px);
+        padding-left: 35px; }
+        body main section.page .wrapper .newsinner .newscontent .textcontent time {
+          color: #666666;
+          font-family: "BPG Nateli Mtavruli";
+          font-size: 16px;
+          font-weight: bold; }
+          body main section.page .wrapper .newsinner .newscontent .textcontent time img {
+            margin-right: 10px; }
+        body main section.page .wrapper .newsinner .newscontent .textcontent h2 {
+          margin-top: 20px;
+          color: #333333;
+          font-family: "BPG Nateli Mtavruli";
+          font-size: 20px;
+          font-weight: bold; }
+        body main section.page .wrapper .newsinner .newscontent .textcontent .text {
+          margin-top: 25px;
+          color: #333333;
+          font-family: "BPG Nateli";
+          font-size: 16px;
+          font-weight: bold; }
+          body main section.page .wrapper .newsinner .newscontent .textcontent .text p {
+            margin-bottom: 20px; }
+    body main section.page .wrapper .newsinner section.othernews {
+      margin-top: 70px; }
+      body main section.page .wrapper .newsinner section.othernews h2 {
+        color: #333333;
+        font-family: "BPG Nateli Mtavruli";
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center; }
+      body main section.page .wrapper .newsinner section.othernews .othernewscont {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        margin-top: 20px;
+        border-top: 1px solid #d5d2d2;
+        padding-top: 40px; }
+        body main section.page .wrapper .newsinner section.othernews .othernewscont .n {
+          margin-right: 45px;
+          margin-bottom: 40px;
+          width: 315px; }
+          body main section.page .wrapper .newsinner section.othernews .othernewscont .n .img {
+            width: 100%;
+            height: 250px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center; }
+          body main section.page .wrapper .newsinner section.othernews .othernewscont .n:nth-child(4n+4) {
+            margin-right: 0; }
+          body main section.page .wrapper .newsinner section.othernews .othernewscont .n time {
+            color: #666666;
+            font-family: "BPG Nateli Mtavruli";
+            font-size: 16px;
+            font-weight: bold;
+            margin-top: 28px;
+            display: block; }
+            body main section.page .wrapper .newsinner section.othernews .othernewscont .n time img {
+              vertical-align: middle;
+              margin-right: 10px; }
+          body main section.page .wrapper .newsinner section.othernews .othernewscont .n h3 {
+            margin-top: 20px;
+            color: #333333;
+            font-family: "BPG Nateli Mtavruli";
+            font-size: 20px;
+            font-weight: bold; }
+          body main section.page .wrapper .newsinner section.othernews .othernewscont .n .desc {
+            color: #666666;
+            font-family: "BPG Nateli GPL & GNU";
+            font-size: 15px;
+            font-weight: bold;
+            margin-top: 23px; }
+          body main section.page .wrapper .newsinner section.othernews .othernewscont .n a.more {
+            display: block;
+            margin-top: 30px;
+            color: #327fc9;
+            font-family: "BPG Nateli Mtavruli";
+            font-size: 16px;
+            font-weight: bold; }
+            body main section.page .wrapper .newsinner section.othernews .othernewscont .n a.more img {
+              margin-right: 10px; }
     body main section.page .wrapper .pagecontent {
       width: calc(100% - 335px); }
       body main section.page .wrapper .pagecontent .photogallery {

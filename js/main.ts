@@ -73,7 +73,17 @@ $(document).ready(()=>{
     });
 
 
-    $("#newsslider").lightSlider();
+    $("#newsslider").lightSlider({
+        loop: true,
+        onSliderLoad: function (el) {
+            let img = $(el[0]).find('li.active').data('img');
+            $(".mainslide").css('background-image',`url("${img}")`);
+        },
+        onAfterSlide: function (el) {
+            let img = $(el[0]).find('li.active').data('img');
+            $(".mainslide").css('background-image',`url("${img}")`);
+        }
+    });
 });
 
 let map;

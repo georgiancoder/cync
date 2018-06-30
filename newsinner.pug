@@ -6,20 +6,20 @@ block content
     section.page
         .wrapper
             .newsinner
-                a.back <img src="images/backtoarchive.png"> არქივში დაბრუნება
+                a.back(href="news.html") <img src="images/backtoarchive.png"> არქივში დაბრუნება
                 .newscontent
                     .newsgallery
                         .mainslide
                             button.openlighgallery
                                 img(src="images/magnifier.png")
                         ul#newsslider
-                            li
+                            li(data-img="images/layer-12.png")
                                 img(src="images/layer-12.png")
-                            li
+                            li(data-img="images/layer-13.png")
                                 img(src="images/layer-13.png")
-                            li
+                            li(data-img="images/layer-11.png")
                                 img(src="images/layer-11.png")
-                            li
+                            li(data-img="https://img.youtube.com/vi/VX0Bu_klgvo/0.jpg")
                                 img(src="https://img.youtube.com/vi/VX0Bu_klgvo/0.jpg")
                         a.fbshare <img src="images/fbshare.png"> გაზიარება
                     .textcontent
@@ -37,7 +37,7 @@ block content
                 section.othernews
                     h2 სხვა სიახლეები
                     .othernewscont
-                        -for(i=0; i<3; i++)
+                        -for(i=0; i<4; i++)
                             .n
                                 .img(style="background-image: url('images/layer-10.png')")
                                 time <img src="images/calendar2.png"> 14 მაისი, 2018
