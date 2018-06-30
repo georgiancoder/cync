@@ -75,6 +75,12 @@ $(document).ready(function () {
             $(".mainslide").css('background-image', "url(\"" + img + "\")");
         }
     });
+    $("button.viewpdf").click(function (event) {
+        event.stopPropagation();
+        event.stopImmediatePropagation();
+        var pdf = $(this).data('pdf');
+        window.open(pdf, '_blank');
+    });
 });
 var map;
 var map2;

@@ -916,7 +916,48 @@ body{
                 }
               }
             }
-
+            .debuleba{
+              ul.pdfs{
+                width: 670px;
+                li{
+                  display: flex;
+                  margin-bottom: 25px;
+                  .title{
+                    width: 622px;
+                    min-height: 90px;
+                    border-radius: 10px;
+                    border: 1px solid #cccccc;
+                    padding: 10px;
+                    display: flex;
+                    align-items: center;
+                    color: #666666;
+                    font-family: "Roboto _ GEO Mt";
+                    font-size: 16px;
+                    font-weight: bold;
+                    &::before{
+                      content: url("../images/pdf.png");
+                      margin-right: 20px;
+                    }
+                  }
+                  .controls{
+                    width: 670px - 622px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    flex-direction: column;
+                    a, button{
+                      display: flex;
+                      align-items: center;
+                      justify-content: center;
+                      width: 40px;
+                      height: 42px;
+                      border-radius: 10px;
+                      border: 1px solid #cccccc;
+                    }
+                  }
+                }
+              }
+            }
           }
         }
       }

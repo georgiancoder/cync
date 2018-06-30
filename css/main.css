@@ -818,6 +818,61 @@ body main section.page {
             font-weight: bold; }
             body main section.page .wrapper .pagecontent .news .n a.more img {
               margin-right: 10px; }
+      body main section.page .wrapper .pagecontent .debuleba ul.pdfs {
+        width: 670px; }
+        body main section.page .wrapper .pagecontent .debuleba ul.pdfs li {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          margin-bottom: 25px; }
+          body main section.page .wrapper .pagecontent .debuleba ul.pdfs li .title {
+            width: 622px;
+            min-height: 90px;
+            border-radius: 10px;
+            border: 1px solid #cccccc;
+            padding: 10px;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            color: #666666;
+            font-family: "Roboto _ GEO Mt";
+            font-size: 16px;
+            font-weight: bold; }
+            body main section.page .wrapper .pagecontent .debuleba ul.pdfs li .title::before {
+              content: url("../images/pdf.png");
+              margin-right: 20px; }
+          body main section.page .wrapper .pagecontent .debuleba ul.pdfs li .controls {
+            width: 48px;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+            justify-content: space-between;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+            flex-direction: column; }
+            body main section.page .wrapper .pagecontent .debuleba ul.pdfs li .controls a, body main section.page .wrapper .pagecontent .debuleba ul.pdfs li .controls button {
+              display: -webkit-box;
+              display: -ms-flexbox;
+              display: flex;
+              -webkit-box-align: center;
+              -ms-flex-align: center;
+              align-items: center;
+              -webkit-box-pack: center;
+              -ms-flex-pack: center;
+              justify-content: center;
+              width: 40px;
+              height: 42px;
+              border-radius: 10px;
+              border: 1px solid #cccccc; }
 
 body main section.contact {
   margin-top: 45px; }

@@ -84,6 +84,13 @@ $(document).ready(()=>{
             $(".mainslide").css('background-image',`url("${img}")`);
         }
     });
+
+    $("button.viewpdf").click(function (event) {
+        event.stopPropagation();
+        event.stopImmediatePropagation();
+        let pdf = $(this).data('pdf');
+        window.open(pdf,'_blank');
+    });
 });
 
 let map;

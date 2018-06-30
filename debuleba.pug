@@ -1,0 +1,18 @@
+extends layout.pug
+
+block content
+    -var breadcrumbs = ["ცენტრის შესახებ","დებულება"]
+    include breadcrumbs.pug
+    section.page
+        .wrapper
+            -var sidebarMenu = [{name: 'დებულება', link: 'debuleba.html'},{name: 'სტრუქტურა', link: ''},{name: 'ხელმძღვანელობა', link: ''},{name: 'მიზნები და ამოცანები', link: ''}]
+            include sidebarmenu.pug
+            .pagecontent
+                .debuleba
+                    ul.pdfs
+                        -for(i=0; i<5; i++)
+                            li
+                                .title საჯარო სამართლის იურიდიული პირის – ბავშვთა და ახალგაზრდობის ეროვნული ცენტრის დებულება
+                                .controls
+                                    a(href="images/pdf-test.pdf" download) <img src="images/downloadpdf.png">
+                                    button.viewpdf(data-pdf="images/pdf-test.pdf") <img src="images/view.png">
