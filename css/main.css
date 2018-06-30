@@ -385,6 +385,43 @@ body main section.page {
           height: 1px;
           background-color: #e8e8e8;
           margin-left: 15px; }
+      body main section.page .wrapper aside.news {
+        padding: 0 8px; }
+        body main section.page .wrapper aside.news > div {
+          width: 166px;
+          height: 38px;
+          border-radius: 10px;
+          border: 1px solid #b4b4b4;
+          padding: 0 15px;
+          position: relative;
+          margin-bottom: 15px; }
+          body main section.page .wrapper aside.news > div::after {
+            content: url("../images/newsdropdown.png");
+            position: absolute;
+            right: 15px;
+            top: 50%;
+            -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%); }
+          body main section.page .wrapper aside.news > div h4 {
+            color: #1e5c97;
+            font-family: "Roboto _ GEO Mt";
+            font-size: 16px;
+            font-weight: bold;
+            margin-top: 8px;
+            cursor: pointer; }
+          body main section.page .wrapper aside.news > div ul {
+            display: none; }
+          body main section.page .wrapper aside.news > div.active {
+            border: none;
+            width: auto;
+            height: auto;
+            margin-bottom: 35px; }
+            body main section.page .wrapper aside.news > div.active::after {
+              display: none; }
+            body main section.page .wrapper aside.news > div.active ul {
+              margin-top: 25px;
+              display: block; }
     body main section.page .wrapper .pagecontent {
       width: calc(100% - 335px); }
       body main section.page .wrapper .pagecontent .photogallery {
@@ -578,6 +615,55 @@ body main section.page {
             font-size: 16px;
             font-weight: bold;
             line-height: 42px; }
+      body main section.page .wrapper .pagecontent .news {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+        body main section.page .wrapper .pagecontent .news .n {
+          margin-right: 45px;
+          margin-bottom: 40px;
+          width: 315px; }
+          body main section.page .wrapper .pagecontent .news .n .img {
+            width: 100%;
+            height: 250px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center; }
+          body main section.page .wrapper .pagecontent .news .n:nth-child(3n+3) {
+            margin-right: 0; }
+          body main section.page .wrapper .pagecontent .news .n time {
+            color: #666666;
+            font-family: "BPG Nateli Mtavruli";
+            font-size: 16px;
+            font-weight: bold;
+            margin-top: 28px;
+            display: block; }
+            body main section.page .wrapper .pagecontent .news .n time img {
+              vertical-align: middle;
+              margin-right: 10px; }
+          body main section.page .wrapper .pagecontent .news .n h3 {
+            margin-top: 20px;
+            color: #333333;
+            font-family: "BPG Nateli Mtavruli";
+            font-size: 20px;
+            font-weight: bold; }
+          body main section.page .wrapper .pagecontent .news .n .desc {
+            color: #666666;
+            font-family: "BPG Nateli GPL & GNU";
+            font-size: 15px;
+            font-weight: bold;
+            margin-top: 23px; }
+          body main section.page .wrapper .pagecontent .news .n a.more {
+            display: block;
+            margin-top: 30px;
+            color: #327fc9;
+            font-family: "BPG Nateli Mtavruli";
+            font-size: 16px;
+            font-weight: bold; }
+            body main section.page .wrapper .pagecontent .news .n a.more img {
+              margin-right: 10px; }
 
 body main section.contact {
   margin-top: 45px; }

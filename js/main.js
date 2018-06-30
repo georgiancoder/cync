@@ -58,6 +58,12 @@ $(document).ready(function () {
         items: 1
     });
     $("#lightgallery").lightGallery();
+    $("aside.news div").click(function (event) {
+        event.stopPropagation();
+        event.stopImmediatePropagation();
+        $("aside.news div").removeClass('active');
+        $(this).addClass('active');
+    });
 });
 var map;
 var map2;

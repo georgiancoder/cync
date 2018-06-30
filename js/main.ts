@@ -64,6 +64,13 @@ $(document).ready(()=>{
     });
 
     $("#lightgallery").lightGallery();
+
+    $("aside.news div").click(function (event) {
+        event.stopPropagation();
+        event.stopImmediatePropagation();
+        $("aside.news div").removeClass('active');
+        $(this).addClass('active');
+    });
 });
 
 let map;

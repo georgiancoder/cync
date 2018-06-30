@@ -1,0 +1,17 @@
+extends layout.pug
+
+block content
+    -var breadcrumbs = ["სიახლეები"]
+    include breadcrumbs.pug
+    section.page
+        .wrapper
+            include sidebarnews.pug
+            .pagecontent
+                .news
+                    -for(i=0; i<9; i++)
+                        .n
+                            .img(style="background-image: url('images/layer-10.png')")
+                            time <img src="images/calendar2.png"> 14 მაისი, 2018
+                            h3 ურთიერთთანამშრომლობის მემორანდუმი
+                            .desc 3 აპრილს საქართველოს განათლებისა და მეცნიერების სამინისტროს სსიპ „ბავშვთა და ახალგაზრდობის ეროვნულ ცენტრსა“და საქართველოს პრემიერ-მინისტრის ...
+                            a(href="newsinner.html" class="more") <img src="images/more2.png"> ვრცლად

@@ -434,6 +434,49 @@ body{
                 }
               }
             }
+            &.news{
+              padding: 0 8px;
+              &>div{
+                width: 166px;
+                height: 38px;
+                border-radius: 10px;
+                border: 1px solid #b4b4b4;
+                padding: 0 15px;
+                position: relative;
+                margin-bottom: 15px;
+                &::after{
+                  content: url("../images/newsdropdown.png");
+                  position: absolute;
+                  right: 15px;
+                  top: 50%;
+                  transform: translateY(-50%);
+                }
+                h4{
+                  color: #1e5c97;
+                  font-family: "Roboto _ GEO Mt";
+                  font-size: 16px;
+                  font-weight: bold;
+                  margin-top: 8px;
+                  cursor: pointer;
+                }
+                ul{
+                  display: none;
+                }
+                &.active{
+                  border: none;
+                  width: auto;
+                  height: auto;
+                  margin-bottom: 35px;
+                  &::after{
+                    display: none;
+                  }
+                  ul{
+                    margin-top: 25px;
+                    display: block;
+                  }
+                }
+              }
+            }
           }
           .pagecontent{
             width: calc(100% - 335px);
@@ -638,6 +681,62 @@ body{
                   font-size: 16px;
                   font-weight: bold;
                   line-height: 42px;
+                }
+              }
+            }
+            .news{
+              display: flex;
+              flex-wrap: wrap;
+              .n{
+                margin-right: 45px;
+                margin-bottom: 40px;
+                width: 315px;
+                .img{
+                  width: 100%;
+                  height: 250px;
+                  background-repeat: no-repeat;
+                  background-size: cover;
+                  background-position: center;
+                }
+                &:nth-child(3n+3){
+                  margin-right: 0;
+                }
+                time{
+                  color: #666666;
+                  font-family: "BPG Nateli Mtavruli";
+                  font-size: 16px;
+                  font-weight: bold;
+                  margin-top: 28px;
+                  display: block;
+                  img{
+                    vertical-align: middle;
+                    margin-right: 10px;
+                  }
+                }
+                h3{
+                  margin-top: 20px;
+                  color: #333333;
+                  font-family: "BPG Nateli Mtavruli";
+                  font-size: 20px;
+                  font-weight: bold;
+                }
+                .desc{
+                  color: #666666;
+                  font-family: "BPG Nateli GPL & GNU";
+                  font-size: 15px;
+                  font-weight: bold;
+                  margin-top: 23px;
+                }
+                a.more{
+                  display: block;
+                  margin-top: 30px;
+                  color: #327fc9;
+                  font-family: "BPG Nateli Mtavruli";
+                  font-size: 16px;
+                  font-weight: bold;
+                  img{
+                    margin-right: 10px;
+                  }
                 }
               }
             }
