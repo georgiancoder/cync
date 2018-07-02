@@ -655,6 +655,9 @@ body{
             }
           }
           .pagecontent{
+            img{
+              max-width: 100%;
+            }
             width: calc(100% - 335px);
             .photogallery{
               padding-right: 25px;

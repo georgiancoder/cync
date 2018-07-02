@@ -578,6 +578,8 @@ body main section.page {
               margin-right: 10px; }
     body main section.page .wrapper .pagecontent {
       width: calc(100% - 335px); }
+      body main section.page .wrapper .pagecontent img {
+        max-width: 100%; }
       body main section.page .wrapper .pagecontent .photogallery {
         padding-right: 25px; }
         body main section.page .wrapper .pagecontent .photogallery time {
