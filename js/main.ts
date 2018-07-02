@@ -91,6 +91,26 @@ $(document).ready(()=>{
         let pdf = $(this).data('pdf');
         window.open(pdf,'_blank');
     });
+
+    $(".projects button.more").click(function (event) {
+        event.stopPropagation();
+        event.stopImmediatePropagation();
+        let openText = $(this).data('textopen');
+        let closeText = $(this).data('textclose');
+        $(this).parent().toggleClass('open');
+        if($(this).parent().hasClass('open')){
+            $(this).find('span').html(closeText);
+        }else{
+            $(this).find('span').html(openText);
+        }
+
+    });
+
+    $(".projects button.close").click(function (event) {
+        event.stopPropagation();
+        event.stopImmediatePropagation();
+        $(this).parent().removeClass('open');
+    });
 });
 
 let map;

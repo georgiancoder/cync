@@ -873,6 +873,96 @@ body main section.page {
               height: 42px;
               border-radius: 10px;
               border: 1px solid #cccccc; }
+      body main section.page .wrapper .pagecontent .projects {
+        padding-right: 50px; }
+        body main section.page .wrapper .pagecontent .projects ul li {
+          position: relative;
+          border: 1px solid #cccccc;
+          border-radius: 5px;
+          padding: 30px;
+          margin-bottom: 20px; }
+          body main section.page .wrapper .pagecontent .projects ul li.open button.close {
+            display: block; }
+          body main section.page .wrapper .pagecontent .projects ul li.open button.more img {
+            -webkit-transform: rotate(-180deg);
+            -ms-transform: rotate(-180deg);
+            transform: rotate(-180deg); }
+          body main section.page .wrapper .pagecontent .projects ul li.open .hiddencontent {
+            display: block; }
+          body main section.page .wrapper .pagecontent .projects ul li h2 {
+            color: #1e5c97;
+            font-family: "Roboto _ GEO Mt";
+            font-size: 20px;
+            font-weight: bold; }
+          body main section.page .wrapper .pagecontent .projects ul li .bene {
+            margin-top: 30px;
+            color: #666666;
+            font-family: "Roboto _ GEO Mt";
+            font-size: 16px;
+            font-weight: bold; }
+            body main section.page .wrapper .pagecontent .projects ul li .bene img {
+              vertical-align: middle;
+              margin-right: 10px; }
+          body main section.page .wrapper .pagecontent .projects ul li .cync {
+            margin-top: 20px;
+            color: #666666;
+            font-family: "Roboto _ GEO Mt";
+            font-size: 16px;
+            font-weight: bold; }
+            body main section.page .wrapper .pagecontent .projects ul li .cync img {
+              vertical-align: middle;
+              margin-right: 10px; }
+          body main section.page .wrapper .pagecontent .projects ul li button.close {
+            position: absolute;
+            top: 30px;
+            right: 30px;
+            display: none; }
+          body main section.page .wrapper .pagecontent .projects ul li button.more {
+            margin-top: 25px;
+            padding: 0 15px;
+            height: 40px;
+            border-radius: 3px;
+            border: 1px solid #cccccc;
+            color: #999999;
+            font-family: "Roboto _ GEO Mt";
+            font-size: 16px;
+            font-weight: bold; }
+            body main section.page .wrapper .pagecontent .projects ul li button.more img {
+              margin-left: 10px; }
+          body main section.page .wrapper .pagecontent .projects ul li .hiddencontent {
+            display: none;
+            margin-top: 35px; }
+            body main section.page .wrapper .pagecontent .projects ul li .hiddencontent p {
+              color: #666666;
+              font-family: "Roboto _ GEO Nus";
+              font-size: 14px;
+              font-weight: bold;
+              margin-bottom: 20px; }
+            body main section.page .wrapper .pagecontent .projects ul li .hiddencontent .resptable {
+              margin-top: 40px;
+              margin-bottom: 20px;
+              width: 100%;
+              overflow: auto; }
+              body main section.page .wrapper .pagecontent .projects ul li .hiddencontent .resptable table {
+                min-width: 900px;
+                border-spacing: 3px;
+                text-align: center; }
+                body main section.page .wrapper .pagecontent .projects ul li .hiddencontent .resptable table th {
+                  width: 33.3%;
+                  color: #4267b2;
+                  font-family: "Roboto _ GEO Mt";
+                  font-size: 15px;
+                  font-weight: bold;
+                  padding: 0 20px; }
+                body main section.page .wrapper .pagecontent .projects ul li .hiddencontent .resptable table td {
+                  width: 33.3%;
+                  padding: 30px;
+                  border-radius: 3px;
+                  background-color: #f2f2f2;
+                  color: #666666;
+                  font-family: "Roboto _ GEO Nus";
+                  font-size: 14px;
+                  font-weight: bold; }
 
 body main section.contact {
   margin-top: 45px; }

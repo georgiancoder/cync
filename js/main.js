@@ -81,6 +81,24 @@ $(document).ready(function () {
         var pdf = $(this).data('pdf');
         window.open(pdf, '_blank');
     });
+    $(".projects button.more").click(function (event) {
+        event.stopPropagation();
+        event.stopImmediatePropagation();
+        var openText = $(this).data('textopen');
+        var closeText = $(this).data('textclose');
+        $(this).parent().toggleClass('open');
+        if ($(this).parent().hasClass('open')) {
+            $(this).find('span').html(closeText);
+        }
+        else {
+            $(this).find('span').html(openText);
+        }
+    });
+    $(".projects button.close").click(function (event) {
+        event.stopPropagation();
+        event.stopImmediatePropagation();
+        $(this).parent().removeClass('open');
+    });
 });
 var map;
 var map2;

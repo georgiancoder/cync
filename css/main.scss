@@ -958,6 +958,119 @@ body{
                 }
               }
             }
+            .projects{
+              padding-right: 50px;
+              ul{
+                li{
+                  position: relative;
+                  border: 1px solid #cccccc;
+                  border-radius: 5px;
+                  padding: 30px;
+                  margin-bottom: 20px;
+                  &.open{
+                    button.close{
+                      display: block;
+                    }
+                    button.more{
+                      img{
+                        transform: rotate(-180deg);
+                      }
+                    }
+                    .hiddencontent{
+                      display: block;
+                    }
+                  }
+                  h2{
+                    color: #1e5c97;
+                    font-family: "Roboto _ GEO Mt";
+                    font-size: 20px;
+                    font-weight: bold;
+                  }
+                  .bene{
+                    margin-top: 30px;
+                    color: #666666;
+                    font-family: "Roboto _ GEO Mt";
+                    font-size: 16px;
+                    font-weight: bold;
+                    img{
+                      vertical-align: middle;
+                      margin-right: 10px;
+                    }
+                  }
+                  .cync{
+                    margin-top: 20px;
+                    color: #666666;
+                    font-family: "Roboto _ GEO Mt";
+                    font-size: 16px;
+                    font-weight: bold;
+                    img{
+                      vertical-align: middle;
+                      margin-right: 10px;
+                    }
+                  }
+                  button.close{
+                    position: absolute;
+                    top: 30px;
+                    right: 30px;
+                    display: none;
+                  }
+                  button.more{
+                    margin-top: 25px;
+                    padding: 0 15px;
+                    height: 40px;
+                    border-radius: 3px;
+                    border: 1px solid #cccccc;
+                    color: #999999;
+                    font-family: "Roboto _ GEO Mt";
+                    font-size: 16px;
+                    font-weight: bold;
+                    img{
+                      margin-left: 10px;
+                    }
+                  }
+                  .hiddencontent{
+                    display: none;
+                    margin-top: 35px;
+                    p{
+                      color: #666666;
+                      font-family: "Roboto _ GEO Nus";
+                      font-size: 14px;
+                      font-weight: bold;
+                      margin-bottom: 20px;
+                    }
+                    .resptable{
+                      margin-top: 40px;
+                      margin-bottom: 20px;
+                      width: 100%;
+                      overflow: auto;
+                      table{
+                        min-width: 900px;
+                        border-spacing: 3px;
+                        text-align: center;
+                        th{
+                          width: 33.3%;
+                          color: #4267b2;
+                          font-family: "Roboto _ GEO Mt";
+                          font-size: 15px;
+                          font-weight: bold;
+                          padding:  0 20px;
+                        }
+                        td{
+                          width: 33.3%;
+                          padding: 30px;
+                          border-radius: 3px;
+                          background-color: #f2f2f2;
+                          color: #666666;
+                          font-family: "Roboto _ GEO Nus";
+                          font-size: 14px;
+                          font-weight: bold;
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
           }
         }
       }
