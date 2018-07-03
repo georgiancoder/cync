@@ -8,3 +8,12 @@ block content
             -var sidebarMenu = [{name: 'დებულება', link: 'debuleba.html'},{name: 'სტრუქტურა', link: 'struqture.html'},{name: 'ხელმძღვანელობა', link: 'menegment.html'},{name: 'მიზნები და ამოცანები', link: 'tasks.html'}]
             include sidebarmenu.pug
             .pagecontent
+                .leadership
+                    ul
+                        -for(i=0; i<4; i++)
+                            li
+                                .pic(style="background-image: url('images/leader.png')")
+                                .desc
+                                    h3 ცენტრის უფროსი
+                                    h2 გიგა გაბელაია
+                                    a.mail(href="mailto:ggabelaia@cync.ge") <img src="images/mail.png"> ggabelaia@cync.ge

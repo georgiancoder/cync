@@ -1,5 +1,5 @@
 aside
     ul
-        each item in sidebarMenu
-            li
+        each item, index in sidebarMenu
+            li(class=(index == 0) ? 'active': '')
                 a(href=item.link)=item.name

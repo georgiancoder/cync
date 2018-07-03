@@ -431,6 +431,12 @@ body{
                 font-weight: bold;
                 line-height: 16px;
                 margin-bottom: 15px;
+                &.active{
+                  color: #b5b5b5;
+                  &::before{
+                    content: url("../images/asideactive.png");
+                  }
+                }
                 &:last-child{
                   &::after{
                     display: none;
@@ -1068,6 +1074,49 @@ body{
                           font-size: 14px;
                           font-weight: bold;
                         }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+            .leadership{
+              ul{
+                li{
+                  display: flex;
+                  margin-bottom: 40px;
+                  .pic{
+                    width: 215px;
+                    height: 215px;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center;
+                  }
+                  .desc{
+                    padding-left: 20px;
+                    h3{
+                      color: #666666;
+                      font-family: "Roboto _ GEO Mt";
+                      font-size: 16px;
+                      font-weight: bold;
+                    }
+                    h2{
+                      margin-top: 20px;
+                      color: #1e5c97;
+                      font-size: 21px;
+                      font-weight: bold;
+                      font-family: "Roboto _ GEO Mt";
+                    }
+                    a.mail{
+                      display: block;
+                      margin-top: 20px;
+                      color: #999999;
+                      font-family: "Roboto _ GEO Mt";
+                      font-size: 16px;
+                      font-weight: bold;
+                      img{
+                        vertical-align: middle;
+                        margin-right: 7px;
                       }
                     }
                   }
