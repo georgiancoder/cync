@@ -61,9 +61,19 @@ html
             nav
                 .wrapper
                     ul
-                        each item in menu
+                        each item, index in menu
                             li
                                 a(href=item.link)=item.name
+                                if(index == 1)
+                                    ul
+                                        li
+                                            a(href="debuleba.html") დებულება
+                                        li
+                                            a(href="struqture.html") სტრუქტურა
+                                        li
+                                            a(href="menegment.html") ხელმძღვანელობა
+                                        li
+                                            a(href="tasks.html") მიზნები და ამოცანები
         main
             block content
 
