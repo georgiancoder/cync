@@ -9,7 +9,7 @@ $(document).ready(function () {
         event.stopPropagation();
         event.stopImmediatePropagation();
         var vid = $(this).data('vid');
-        $(".video img.thumb").replaceWith("<iframe width=\"530\" height=\"315\" src=\"https://www.youtube.com/embed/" + vid + "?autoplay=1\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>");
+        $(".video img.thumb").replaceWith("<iframe width=\"530\" height=\"315\" src=\"https://www.youtube.com/embed/" + vid + "?autoplay=1&showinfo=0&controls=0\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>");
         $(this).hide();
     });
     $(".playlist li").click(function (event) {
@@ -17,10 +17,10 @@ $(document).ready(function () {
         event.stopImmediatePropagation();
         var vid = $(this).data('vid');
         if ($(".video img.thumb").html() != undefined) {
-            $(".video img.thumb").replaceWith("<iframe width=\"530\" height=\"315\" src=\"https://www.youtube.com/embed/" + vid + "?autoplay=1\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>");
+            $(".video img.thumb").replaceWith("<iframe width=\"530\" height=\"315\" src=\"https://www.youtube.com/embed/" + vid + "?autoplay=1&showinfo=0&controls=0\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>");
         }
         else {
-            $(".video iframe").replaceWith("<iframe width=\"530\" height=\"315\" src=\"https://www.youtube.com/embed/" + vid + "?autoplay=1\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>");
+            $(".video iframe").replaceWith("<iframe width=\"530\" height=\"315\" src=\"https://www.youtube.com/embed/" + vid + "?autoplay=1&showinfo=0&controls=0\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>");
         }
         $("button.play").hide();
     });
