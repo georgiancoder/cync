@@ -98,6 +98,8 @@ $(document).ready(function () {
         event.stopPropagation();
         event.stopImmediatePropagation();
         $(this).parent().removeClass('open');
+        var openText = $(this).parent().find('button.more').data('textopen');
+        $(this).parent().find('button.more span').html(openText);
     });
 });
 var map;

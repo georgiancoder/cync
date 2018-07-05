@@ -110,6 +110,8 @@ $(document).ready(()=>{
         event.stopPropagation();
         event.stopImmediatePropagation();
         $(this).parent().removeClass('open');
+        let openText = $(this).parent().find('button.more').data('textopen');
+        $(this).parent().find('button.more span').html(openText);
     });
 });
 
