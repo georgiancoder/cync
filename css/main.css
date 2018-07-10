@@ -58,6 +58,87 @@ a {
 .lSSlideOuter .lSPager.lSpg > li.active > a {
   background-color: #1e5c97; }
 
+body.wide-page div.wrapper {
+  width: 100%; }
+
+body.wide-page section.photovideo .wrapper .playlist {
+  width: calc(100% - 940px); }
+
+body.wide-page .pagecontent .photogallery #lightgallery a {
+  margin-right: 17px !important; }
+
+body.night {
+  background-color: #ccc; }
+
+body.highcontrast {
+  background-color: #000; }
+  body.highcontrast > header nav {
+    background-color: #000;
+    border: 1px solid #FFF; }
+    body.highcontrast > header nav ul li {
+      border-color: #FFFFFF; }
+  body.highcontrast a, body.highcontrast li, body.highcontrast h1, body.highcontrast h2, body.highcontrast h3, body.highcontrast h4, body.highcontrast h5, body.highcontrast h6, body.highcontrast label, body.highcontrast time, body.highcontrast p, body.highcontrast div {
+    color: #FFFFFF !important; }
+  body.highcontrast main div#mainCarousel::before, body.highcontrast main div#mainCarousel::after {
+    background-color: #FFFFFF; }
+  body.highcontrast main div div div article, body.highcontrast footer div div.bot, body.highcontrast main section.photovideo .wrapper .links a, body.highcontrast main section.photovideo .wrapper .links a.video {
+    background-color: #000;
+    color: #FFFFFF; }
+  body.highcontrast footer div.partners, body.highcontrast footer div.mid > header, body.highcontrast footer div div.body, body.highcontrast main section.photovideo .wrapper .playlist ul li, body.highcontrast main section.breadcrumbs, body.highcontrast li, body.highcontrast main section.camps .cont a, body.highcontrast main section.programs .cont a {
+    background-color: #000000 !important;
+    border: 1px solid #FFF;
+    color: #FFFFFF; }
+  body.highcontrast > header nav div ul li ul {
+    background-color: #000000 !important;
+    border: 1px solid #FFF;
+    color: #FFFFFF; }
+
+body.highcontrast2 {
+  background-color: #000; }
+  body.highcontrast2 > header nav {
+    background-color: #000;
+    border: 1px solid #ff0; }
+    body.highcontrast2 > header nav ul li {
+      border-color: #ff0; }
+  body.highcontrast2 a, body.highcontrast2 li, body.highcontrast2 h1, body.highcontrast2 h2, body.highcontrast2 h3, body.highcontrast2 h4, body.highcontrast2 h5, body.highcontrast2 h6, body.highcontrast2 label, body.highcontrast2 time, body.highcontrast2 p, body.highcontrast2 div {
+    color: #FFFFFF !important; }
+  body.highcontrast2 main div#mainCarousel::before, body.highcontrast2 main div#mainCarousel::after {
+    background-color: #FFFFFF; }
+  body.highcontrast2 main div div div article, body.highcontrast2 footer div div.bot, body.highcontrast2 main section.photovideo .wrapper .links a, body.highcontrast2 main section.photovideo .wrapper .links a.video {
+    background-color: #000;
+    color: #FFFFFF; }
+  body.highcontrast2 footer div.partners, body.highcontrast2 footer div.mid > header, body.highcontrast2 footer div div.body, body.highcontrast2 main section.photovideo .wrapper .playlist ul li, body.highcontrast2 main section.breadcrumbs, body.highcontrast2 li, body.highcontrast2 main section.camps .cont a, body.highcontrast2 main section.programs .cont a, body.highcontrast2 main section.contact #map2 {
+    background-color: #000000 !important;
+    border: 1px solid #ff0;
+    color: #FFFFFF; }
+  body.highcontrast2 > header nav div ul li ul {
+    background-color: #000000 !important;
+    border: 1px solid #ff0;
+    color: #FFFFFF; }
+
+body.highcontrast3 {
+  background-color: #ff0; }
+  body.highcontrast3 > header nav {
+    background-color: #ff0;
+    border: 1px solid #000; }
+    body.highcontrast3 > header nav ul li {
+      border-color: #000; }
+  body.highcontrast3 a, body.highcontrast3 li, body.highcontrast3 h1, body.highcontrast3 h2, body.highcontrast3 h3, body.highcontrast3 h4, body.highcontrast3 h5, body.highcontrast3 h6, body.highcontrast3 label, body.highcontrast3 time, body.highcontrast3 p, body.highcontrast3 div {
+    color: #000 !important; }
+  body.highcontrast3 main div#mainCarousel::before, body.highcontrast3 main div#mainCarousel::after {
+    background-color: #ff0; }
+  body.highcontrast3 main div div div article, body.highcontrast3 footer div div.bot, body.highcontrast3 main section.photovideo .wrapper .links a, body.highcontrast3 main section.photovideo .wrapper .links a.video {
+    background-color: #ff0;
+    color: #FFFFFF; }
+  body.highcontrast3 footer div.partners, body.highcontrast3 footer div.mid > header, body.highcontrast3 footer div div.body, body.highcontrast3 main section.photovideo .wrapper .playlist ul li, body.highcontrast3 main section.breadcrumbs, body.highcontrast3 li, body.highcontrast3 main section.camps .cont a, body.highcontrast3 main section.programs .cont a, body.highcontrast3 main section.contact #map2 {
+    background-color: #ff0 !important;
+    border: 1px solid #000000;
+    color: #FFFFFF; }
+  body.highcontrast3 > header nav div ul li ul {
+    background-color: #ff0 !important;
+    border: 1px solid #000;
+    color: #FFFFFF; }
+
 body > header {
   padding-bottom: 14px; }
   body > header::before {
@@ -565,6 +646,9 @@ body main section.page {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
         margin-top: 20px;
         border-top: 1px solid #d5d2d2;
         padding-top: 40px; }
@@ -1466,7 +1550,10 @@ body footer {
       body footer div.mid > header .wrapper {
         display: -webkit-box;
         display: -ms-flexbox;
-        display: flex; }
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between; }
   body footer div div.body {
     width: 100%;
     background-color: #d1e1f0;
@@ -1474,7 +1561,10 @@ body footer {
     body footer div div.body .wrapper {
       display: -webkit-box;
       display: -ms-flexbox;
-      display: flex; }
+      display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between; }
   body footer div div.bot {
     width: 100%;
     height: 90px;

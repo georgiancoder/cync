@@ -60,6 +60,131 @@ a {
 }
 
 body{
+  &.wide-page{
+    div.wrapper{
+      width: 100%;
+    }
+    section.photovideo{
+      .wrapper{
+        .playlist{
+          width: calc(100% - 940px);
+        }
+      }
+    }
+    .pagecontent .photogallery #lightgallery a{
+      margin-right: 17px!important;
+    }
+  }
+
+  &.night{
+    background-color: #ccc;
+  }
+
+  &.highcontrast{
+    background-color: #000;
+    &>header{
+      nav{
+        background-color: #000;
+        border: 1px solid #FFF;
+        ul{
+          li{
+            border-color: #FFFFFF;
+          }
+        }
+      }
+    }
+    a, li, h1, h2, h3, h4, h5, h6, label, time, p, div{
+      color: #FFFFFF!important;
+    }
+    main div#mainCarousel::before, main div#mainCarousel::after{
+      background-color: #FFFFFF;
+    }
+    main div div div article, footer div div.bot, main section.photovideo .wrapper .links a, main section.photovideo .wrapper .links a.video{
+      background-color: #000;
+      color: #FFFFFF;
+    }
+    footer div.partners, footer div.mid > header, footer div div.body, main section.photovideo .wrapper .playlist ul li, main section.breadcrumbs, li, main section.camps .cont a, main section.programs .cont a{
+      background-color: #000000!important;
+      border: 1px solid #FFF;
+      color: #FFFFFF;
+    }
+    &>header nav div ul li ul{
+      background-color: #000000!important;
+      border: 1px solid #FFF;
+      color: #FFFFFF;
+    }
+  }
+
+  &.highcontrast2{
+    background-color: #000;
+    &>header{
+      nav{
+        background-color: #000;
+        border: 1px solid #ff0;
+        ul{
+          li{
+            border-color: #ff0;
+          }
+        }
+      }
+    }
+    a, li, h1, h2, h3, h4, h5, h6, label, time, p, div{
+      color: #FFFFFF!important;
+    }
+    main div#mainCarousel::before, main div#mainCarousel::after{
+      background-color: #FFFFFF;
+    }
+    main div div div article, footer div div.bot, main section.photovideo .wrapper .links a, main section.photovideo .wrapper .links a.video{
+      background-color: #000;
+      color: #FFFFFF;
+    }
+    footer div.partners, footer div.mid > header, footer div div.body, main section.photovideo .wrapper .playlist ul li, main section.breadcrumbs, li, main section.camps .cont a, main section.programs .cont a, main section.contact #map2{
+      background-color: #000000!important;
+      border: 1px solid #ff0;
+      color: #FFFFFF;
+    }
+    &>header nav div ul li ul{
+      background-color: #000000!important;
+      border: 1px solid #ff0;
+      color: #FFFFFF;
+    }
+  }
+
+  &.highcontrast3{
+    background-color: #ff0;
+    &>header{
+      nav{
+        background-color: #ff0;
+        border: 1px solid #000;
+        ul{
+          li{
+            border-color: #000;
+          }
+        }
+      }
+    }
+    a, li, h1, h2, h3, h4, h5, h6, label, time, p, div{
+      color: #000!important;
+    }
+    main div#mainCarousel::before, main div#mainCarousel::after{
+      background-color: #ff0;
+    }
+    main div div div article, footer div div.bot, main section.photovideo .wrapper .links a, main section.photovideo .wrapper .links a.video{
+      background-color: #ff0;
+      color: #FFFFFF;
+    }
+    footer div.partners, footer div.mid > header, footer div div.body, main section.photovideo .wrapper .playlist ul li, main section.breadcrumbs, li, main section.camps .cont a, main section.programs .cont a, main section.contact #map2{
+      background-color: #ff0!important;
+      border: 1px solid #000000;
+      color: #FFFFFF;
+    }
+    &>header nav div ul li ul{
+      background-color: #ff0!important;
+      border: 1px solid #000;
+      color: #FFFFFF;
+    }
+  }
+
   &>header{
     padding-bottom: 14px;
     &::before{
@@ -638,6 +763,7 @@ body{
               }
               .othernewscont{
                 display: flex;
+                justify-content: space-between;
                 margin-top: 20px;
                 border-top: 1px solid #d5d2d2;
                 padding-top: 40px;
@@ -1624,6 +1750,7 @@ body{
           background-color: #dde9f5;
           .wrapper{
             display: flex;
+            justify-content: space-between;
           }
         }
       }
@@ -1635,6 +1762,7 @@ body{
           padding: 20px 0;
           .wrapper{
             display: flex;
+            justify-content: space-between;
           }
         }
         &.bot{
