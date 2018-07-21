@@ -337,6 +337,13 @@ document.addEventListener('copy', function(e){
     }
 
 });
+let socTop = $('.social').offset().top;
+
+$(window).scroll((e)=>{
+    if($(window).scrollTop() > socTop){
+        $(".social").css("top",$(window).scrollTop() + 200);
+    }
+});
 
 let map;
 let map2;

@@ -1,6 +1,6 @@
 $(document).ready(function () {
     var element = document.getElementById("eventcalendar");
-    jsCalendar["new"]("#eventcalendar", "now", {
+    jsCalendar.new("#eventcalendar", "now", {
         firstDayOfTheWeek: 2,
         dayFormat: "DDD",
         language: 'ge'
@@ -281,6 +281,12 @@ $(document).ready(function () {
             });
             count = 100;
         }
+    }
+});
+var socTop = $('.social').offset().top;
+$(window).scroll(function (e) {
+    if ($(window).scrollTop() > socTop) {
+        $(".social").css("top", $(window).scrollTop() + 200);
     }
 });
 var map;
