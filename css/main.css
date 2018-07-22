@@ -62,7 +62,7 @@ body > .social {
   position: absolute;
   left: 0;
   top: 200px;
-  z-index: 2; }
+  z-index: 6; }
   body > .social ul li {
     width: 50px;
     height: 50px;
@@ -162,6 +162,8 @@ body.highcontrast3 {
     color: #FFFFFF; }
 
 body > header {
+  position: relative;
+  z-index: 5;
   padding-bottom: 14px; }
   body > header::before {
     content: '';
@@ -350,6 +352,238 @@ body > header {
             border-bottom: 1px solid #3b88d3; }
             body > header nav div ul li ul li:last-child {
               border: none; }
+
+body main div.mainCarouselus {
+  width: 100%;
+  height: 635px;
+  overflow: hidden;
+  position: relative;
+  border-top: 15px solid #81b5e6;
+  border-bottom: 15px solid #81b5e6; }
+  body main div.mainCarouselus button {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 4; }
+    body main div.mainCarouselus button#prev {
+      left: calc((100% - 1370px) / 2 + 25px); }
+    body main div.mainCarouselus button#next {
+      right: calc((100% - 1370px) / 2 + 25px); }
+  body main div.mainCarouselus .cont {
+    width: 100%;
+    height: 100%; }
+  body main div.mainCarouselus .item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+    body main div.mainCarouselus .item.active {
+      display: block;
+      z-index: 3; }
+    body main div.mainCarouselus .item.np {
+      z-index: 2; }
+    body main div.mainCarouselus .item.effectus .slice {
+      top: -100%;
+      opacity: 0;
+      -webkit-transition-duration: 1s;
+      -o-transition-duration: 1s;
+      transition-duration: 1s;
+      -webkit-transition-timing-function: linear;
+      -o-transition-timing-function: linear;
+      transition-timing-function: linear; }
+      body main div.mainCarouselus .item.effectus .slice:nth-child(12) {
+        -webkit-transition-delay: 0.72s;
+        -o-transition-delay: 0.72s;
+        transition-delay: 0.72s;
+        -webkit-transition-duration: 0.28s;
+        -o-transition-duration: 0.28s;
+        transition-duration: 0.28s; }
+      body main div.mainCarouselus .item.effectus .slice:nth-child(11) {
+        -webkit-transition-delay: 0.66s;
+        -o-transition-delay: 0.66s;
+        transition-delay: 0.66s;
+        -webkit-transition-duration: 0.34s;
+        -o-transition-duration: 0.34s;
+        transition-duration: 0.34s; }
+      body main div.mainCarouselus .item.effectus .slice:nth-child(10) {
+        -webkit-transition-delay: 0.6s;
+        -o-transition-delay: 0.6s;
+        transition-delay: 0.6s;
+        -webkit-transition-duration: 0.4s;
+        -o-transition-duration: 0.4s;
+        transition-duration: 0.4s; }
+      body main div.mainCarouselus .item.effectus .slice:nth-child(9) {
+        -webkit-transition-delay: 0.54s;
+        -o-transition-delay: 0.54s;
+        transition-delay: 0.54s;
+        -webkit-transition-duration: 0.46s;
+        -o-transition-duration: 0.46s;
+        transition-duration: 0.46s; }
+      body main div.mainCarouselus .item.effectus .slice:nth-child(8) {
+        -webkit-transition-delay: 0.48s;
+        -o-transition-delay: 0.48s;
+        transition-delay: 0.48s;
+        -webkit-transition-duration: 0.52s;
+        -o-transition-duration: 0.52s;
+        transition-duration: 0.52s; }
+      body main div.mainCarouselus .item.effectus .slice:nth-child(7) {
+        -webkit-transition-delay: 0.42s;
+        -o-transition-delay: 0.42s;
+        transition-delay: 0.42s;
+        -webkit-transition-duration: 0.58s;
+        -o-transition-duration: 0.58s;
+        transition-duration: 0.58s; }
+      body main div.mainCarouselus .item.effectus .slice:nth-child(6) {
+        -webkit-transition-delay: 0.36s;
+        -o-transition-delay: 0.36s;
+        transition-delay: 0.36s;
+        -webkit-transition-duration: 0.64s;
+        -o-transition-duration: 0.64s;
+        transition-duration: 0.64s; }
+      body main div.mainCarouselus .item.effectus .slice:nth-child(5) {
+        -webkit-transition-delay: 0.3s;
+        -o-transition-delay: 0.3s;
+        transition-delay: 0.3s;
+        -webkit-transition-duration: 0.7s;
+        -o-transition-duration: 0.7s;
+        transition-duration: 0.7s; }
+      body main div.mainCarouselus .item.effectus .slice:nth-child(4) {
+        -webkit-transition-delay: 0.24s;
+        -o-transition-delay: 0.24s;
+        transition-delay: 0.24s;
+        -webkit-transition-duration: 0.76s;
+        -o-transition-duration: 0.76s;
+        transition-duration: 0.76s; }
+      body main div.mainCarouselus .item.effectus .slice:nth-child(3) {
+        -webkit-transition-delay: 0.18s;
+        -o-transition-delay: 0.18s;
+        transition-delay: 0.18s;
+        -webkit-transition-duration: 0.82s;
+        -o-transition-duration: 0.82s;
+        transition-duration: 0.82s; }
+      body main div.mainCarouselus .item.effectus .slice:nth-child(2) {
+        -webkit-transition-delay: 0.12s;
+        -o-transition-delay: 0.12s;
+        transition-delay: 0.12s;
+        -webkit-transition-duration: 0.88s;
+        -o-transition-duration: 0.88s;
+        transition-duration: 0.88s; }
+      body main div.mainCarouselus .item.effectus .slice:nth-child(1) {
+        -webkit-transition-delay: 0.06s;
+        -o-transition-delay: 0.06s;
+        transition-delay: 0.06s;
+        -webkit-transition-duration: 0.94s;
+        -o-transition-duration: 0.94s;
+        transition-duration: 0.94s; }
+    body main div.mainCarouselus .item .slicers {
+      z-index: -1;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%; }
+      body main div.mainCarouselus .item .slicers .slice {
+        position: absolute;
+        top: 0;
+        height: 100%;
+        background-repeat: no-repeat;
+        width: calc(100% / 12);
+        opacity: 1; }
+    body main div.mainCarouselus .item.effectus .slice {
+      top: -100%;
+      -webkit-transition-duration: 1s;
+      -o-transition-duration: 1s;
+      transition-duration: 1s;
+      -webkit-transition-timing-function: linear;
+      -o-transition-timing-function: linear;
+      transition-timing-function: linear; }
+      body main div.mainCarouselus .item.effectus .slice:nth-child(12) {
+        -webkit-transition-delay: 0.72s;
+        -o-transition-delay: 0.72s;
+        transition-delay: 0.72s;
+        -webkit-transition-duration: 0.28s;
+        -o-transition-duration: 0.28s;
+        transition-duration: 0.28s; }
+      body main div.mainCarouselus .item.effectus .slice:nth-child(11) {
+        -webkit-transition-delay: 0.66s;
+        -o-transition-delay: 0.66s;
+        transition-delay: 0.66s;
+        -webkit-transition-duration: 0.34s;
+        -o-transition-duration: 0.34s;
+        transition-duration: 0.34s; }
+      body main div.mainCarouselus .item.effectus .slice:nth-child(10) {
+        -webkit-transition-delay: 0.6s;
+        -o-transition-delay: 0.6s;
+        transition-delay: 0.6s;
+        -webkit-transition-duration: 0.4s;
+        -o-transition-duration: 0.4s;
+        transition-duration: 0.4s; }
+      body main div.mainCarouselus .item.effectus .slice:nth-child(9) {
+        -webkit-transition-delay: 0.54s;
+        -o-transition-delay: 0.54s;
+        transition-delay: 0.54s;
+        -webkit-transition-duration: 0.46s;
+        -o-transition-duration: 0.46s;
+        transition-duration: 0.46s; }
+      body main div.mainCarouselus .item.effectus .slice:nth-child(8) {
+        -webkit-transition-delay: 0.48s;
+        -o-transition-delay: 0.48s;
+        transition-delay: 0.48s;
+        -webkit-transition-duration: 0.52s;
+        -o-transition-duration: 0.52s;
+        transition-duration: 0.52s; }
+      body main div.mainCarouselus .item.effectus .slice:nth-child(7) {
+        -webkit-transition-delay: 0.42s;
+        -o-transition-delay: 0.42s;
+        transition-delay: 0.42s;
+        -webkit-transition-duration: 0.58s;
+        -o-transition-duration: 0.58s;
+        transition-duration: 0.58s; }
+      body main div.mainCarouselus .item.effectus .slice:nth-child(6) {
+        -webkit-transition-delay: 0.36s;
+        -o-transition-delay: 0.36s;
+        transition-delay: 0.36s;
+        -webkit-transition-duration: 0.64s;
+        -o-transition-duration: 0.64s;
+        transition-duration: 0.64s; }
+      body main div.mainCarouselus .item.effectus .slice:nth-child(5) {
+        -webkit-transition-delay: 0.3s;
+        -o-transition-delay: 0.3s;
+        transition-delay: 0.3s;
+        -webkit-transition-duration: 0.7s;
+        -o-transition-duration: 0.7s;
+        transition-duration: 0.7s; }
+      body main div.mainCarouselus .item.effectus .slice:nth-child(4) {
+        -webkit-transition-delay: 0.24s;
+        -o-transition-delay: 0.24s;
+        transition-delay: 0.24s;
+        -webkit-transition-duration: 0.76s;
+        -o-transition-duration: 0.76s;
+        transition-duration: 0.76s; }
+      body main div.mainCarouselus .item.effectus .slice:nth-child(3) {
+        -webkit-transition-delay: 0.18s;
+        -o-transition-delay: 0.18s;
+        transition-delay: 0.18s;
+        -webkit-transition-duration: 0.82s;
+        -o-transition-duration: 0.82s;
+        transition-duration: 0.82s; }
+      body main div.mainCarouselus .item.effectus .slice:nth-child(2) {
+        -webkit-transition-delay: 0.12s;
+        -o-transition-delay: 0.12s;
+        transition-delay: 0.12s;
+        -webkit-transition-duration: 0.88s;
+        -o-transition-duration: 0.88s;
+        transition-duration: 0.88s; }
+      body main div.mainCarouselus .item.effectus .slice:nth-child(1) {
+        -webkit-transition-delay: 0.06s;
+        -o-transition-delay: 0.06s;
+        transition-delay: 0.06s;
+        -webkit-transition-duration: 0.94s;
+        -o-transition-duration: 0.94s;
+        transition-duration: 0.94s; }
 
 body main div#mainCarousel {
   width: 100%;

@@ -6,6 +6,15 @@ $(document).ready(()=>{
         language: 'ge'
     });
 
+    let effectus = new EffectusSliderus();
+    effectus.init();
+    $("#next").click(function () {
+        effectus.next();
+    });
+    $("#prev").click(function () {
+        effectus.prev();
+    });
+
     $("button.play").click(function(event){
         event.stopPropagation();
         event.stopImmediatePropagation();

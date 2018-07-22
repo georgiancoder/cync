@@ -64,7 +64,7 @@ body{
     position: absolute;
     left: 0;
     top: 200px;
-    z-index: 2;
+    z-index: 6;
     ul{
       li{
         width: 50px;
@@ -208,6 +208,8 @@ body{
   }
 
   &>header{
+    position: relative;
+    z-index: 5;
     padding-bottom: 14px;
     &::before{
       content: '';
@@ -439,6 +441,88 @@ body{
   }
   main{
     div{
+      &.mainCarouselus{
+        width: 100%;
+        height: 635px;
+        overflow: hidden;
+        position: relative;
+        border-top: 15px solid #81b5e6;
+        border-bottom: 15px solid #81b5e6;
+        button{
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+          z-index: 4;
+          &#prev{
+            left: calc((100% - 1370px) / 2 + 25px);
+          }
+          &#next{
+            right: calc((100% - 1370px) / 2 + 25px);
+          }
+        }
+        .cont{
+          width: 100%;
+          height: 100%;
+        }
+        .item{
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          &.active{
+            display: block;
+            z-index: 3;
+          }
+          &.np{
+            z-index: 2;
+          }
+          &.effectus{
+            .slice{
+              top: -100%;
+              opacity: 0;
+              transition-duration: 1s;
+              transition-timing-function: linear;
+              @for $i from 12 through 1{
+                &:nth-child(#{$i}){
+                  transition-delay: $i * 0.06s;
+                  transition-duration: 1s - $i * 0.06s;
+                }
+              }
+            }
+          }
+          .slicers{
+            z-index: -1;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            .slice{
+              position: absolute;
+              top: 0;
+              height: 100%;
+              background-repeat: no-repeat;
+              width: calc(100% / 12);
+              opacity: 1;
+            }
+          }
+
+          &.effectus{
+            .slice{
+              top: -100%;
+              transition-duration: 1s;
+              transition-timing-function: linear;
+              @for $i from 12 through 1{
+                &:nth-child(#{$i}){
+                  transition-delay: $i * 0.06s;
+                  transition-duration: 1s - $i * 0.06s;
+                }
+              }
+            }
+          }
+        }
+      }
       &#mainCarousel{
         width: 100%;
         height: 677px;

@@ -84,41 +84,66 @@
       </nav>
     </header>
     <main>
-      <div class="owl-carousel owl-theme" id="mainCarousel">
-        <div class="item" style="background-image: url('images/sliderimg.png')">
-          <div class="wrapper">
-            <article>
-              <time><img src="images/calendar.png"> 14 თებერვალი, 2018</time>
-              <h2>შეხვედრა მუნიციპალიტეტების წარმომადგენლებთან</h2>
-              <div class="desc">3 აპრილს საქართველოს განათლებისა და მეცნიერების სამინისტროს სსიპ &quot;ბავშვთა და ახალგაზრდობის ეროვნულ ცენტრსა&quot; და საქართველოს პრემიერ-მინისტრის. შეხვედრა მუნიციპალიტეტების წარმომადგენლ წარმომადგენლებთან', desc: '3 აპრილს საქართველოს განათლებისა და მეცნიერების სამინისტროს სსიპ &quot;ბავშვთა და ახალგაზრდობის ეროვნულ ცენტრსა&quot; და საქართველოს პრემიერ-მინისტრის.</div><a href=""><img src="images/slidermore.png"> ვრცლად</a>
-            </article>
+      <!--.owl-carousel.owl-theme#mainCarousel-->
+      <!--    each item in news-->
+      <!--        .item(style="background-image: url('"+ item.img +"')")-->
+      <!--            .wrapper-->
+      <!--                article-->
+      <!--                    time <img src="images/calendar.png"> #{item.date}-->
+      <!--                    h2=item.title-->
+      <!--                    div.desc=item.desc-->
+      <!--                    a(href="") <img src="images/slidermore.png"> ვრცლად-->
+      <div class="mainCarouselus">
+        <button id="prev"><img src="images/partnerprev.png"></button>
+        <button id="next"><img src="images/partnernext.png"></button>
+        <div class="itemcontainer">
+          <div class="item active" data-bg="images/sliderimg.png">
+            <div class="slicers"></div>
+            <div class="cont">
+              <div class="wrapper">
+                <article>
+                  <time><img src="images/calendar.png"> 14 თებერვალი, 2018</time>
+                  <h2>შეხვედრა მუნიციპალიტეტების წარმომადგენლებთან</h2>
+                  <div class="desc">3 აპრილს საქართველოს განათლებისა და მეცნიერების სამინისტროს სსიპ &quot;ბავშვთა და ახალგაზრდობის ეროვნულ ცენტრსა&quot; და საქართველოს პრემიერ-მინისტრის. შეხვედრა მუნიციპალიტეტების წარმომადგენლ წარმომადგენლებთან', desc: '3 აპრილს საქართველოს განათლებისა და მეცნიერების სამინისტროს სსიპ &quot;ბავშვთა და ახალგაზრდობის ეროვნულ ცენტრსა&quot; და საქართველოს პრემიერ-მინისტრის.</div><a href=""><img src="images/slidermore.png"> ვრცლად</a>
+                </article>
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="item" style="background-image: url('images/sliderimg.png')">
-          <div class="wrapper">
-            <article>
-              <time><img src="images/calendar.png"> 14 თებერვალი, 2018</time>
-              <h2>შეხვედრა მუნიციპალიტეტების წარმომადგენლებთან</h2>
-              <div class="desc">3 აპრილს საქართველოს განათლებისა და მეცნიერების სამინისტროს სსიპ &quot;ბავშვთა და ახალგაზრდობის ეროვნულ ცენტრსა&quot; და საქართველოს პრემიერ-მინისტრის. შეხვედრა მუნიციპალიტეტების წარმომადგენლებთან', desc: '3 აპრილს საქართველოს განათლებისა და მეცნიერების სამინისტროს სსიპ &quot;ბავშვთა და ახალგაზრდობის ეროვნულ ცენტრსა&quot; და საქართველოს პრემიერ-მინისტრის.</div><a href=""><img src="images/slidermore.png"> ვრცლად</a>
-            </article>
+          <div class="item" data-bg="https://www.gettyimages.ie/gi-resources/images/Homepage/Hero/UK/CMS_Creative_164657191_Kingfisher.jpg">
+            <div class="slicers"></div>
+            <div class="cont">
+              <div class="wrapper">
+                <article>
+                  <time><img src="images/calendar.png"> 14 თებერვალი, 2018</time>
+                  <h2>შეხვედრა მუნიციპალიტეტების წარმომადგენლებთან</h2>
+                  <div class="desc">3 აპრილს საქართველოს განათლებისა და მეცნიერების სამინისტროს სსიპ &quot;ბავშვთა და ახალგაზრდობის ეროვნულ ცენტრსა&quot; და საქართველოს პრემიერ-მინისტრის. შეხვედრა მუნიციპალიტეტების წარმომადგენლებთან', desc: '3 აპრილს საქართველოს განათლებისა და მეცნიერების სამინისტროს სსიპ &quot;ბავშვთა და ახალგაზრდობის ეროვნულ ცენტრსა&quot; და საქართველოს პრემიერ-მინისტრის.</div><a href=""><img src="images/slidermore.png"> ვრცლად</a>
+                </article>
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="item" style="background-image: url('images/sliderimg.png')">
-          <div class="wrapper">
-            <article>
-              <time><img src="images/calendar.png"> 14 თებერვალი, 2018</time>
-              <h2>შეხვედრა მუნიციპალიტეტიების წარმომადგენლებთან</h2>
-              <div class="desc">3 აპრილს საქართველოს განათლებისა და მეცნიერების სამინისტროს სსიპ &quot;ბავშვთა და ახალგაზრდობის ეროვნულ ცენტრსა&quot; და საქართველოს პრემიერ-მინისტრის. შეხვედრა მუნიციპალიტეტების წარმომადგენლებთან', desc: '3 აპრილს საქართველოს განათლებისა და მეცნიერების სამინისტროს სსიპ &quot;ბავშვთა და ახალგაზრდობის ეროვნულ ცენტრსა&quot; და საქართველოს პრემიერ-მინისტრის.</div><a href=""><img src="images/slidermore.png"> ვრცლად</a>
-            </article>
+          <div class="item" data-bg="images/sliderimg.png">
+            <div class="slicers"></div>
+            <div class="cont">
+              <div class="wrapper">
+                <article>
+                  <time><img src="images/calendar.png"> 14 თებერვალი, 2018</time>
+                  <h2>შეხვედრა მუნიციპალიტეტიების წარმომადგენლებთან</h2>
+                  <div class="desc">3 აპრილს საქართველოს განათლებისა და მეცნიერების სამინისტროს სსიპ &quot;ბავშვთა და ახალგაზრდობის ეროვნულ ცენტრსა&quot; და საქართველოს პრემიერ-მინისტრის. შეხვედრა მუნიციპალიტეტების წარმომადგენლებთან', desc: '3 აპრილს საქართველოს განათლებისა და მეცნიერების სამინისტროს სსიპ &quot;ბავშვთა და ახალგაზრდობის ეროვნულ ცენტრსა&quot; და საქართველოს პრემიერ-მინისტრის.</div><a href=""><img src="images/slidermore.png"> ვრცლად</a>
+                </article>
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="item" style="background-image: url('images/sliderimg.png')">
-          <div class="wrapper">
-            <article>
-              <time><img src="images/calendar.png"> 14 თებერვალი, 2018</time>
-              <h2>შეხვედრა მუნიციპალიტეტების წარმომადგენლებთან</h2>
-              <div class="desc">3 აპრილს საქართველოს განათლებისა და მეცნიერების სამინისტროს სსიპ &quot;ბავშვთა და ახალგაზრდობის ეროვნულ ცენტრსა&quot; და საქართველოს პრემიერ-მინისტრის. შეხვედრა მუნიციპალიტეტების წარმომადგენლებთან', desc: '3 აპრილს საქართველოს განათლებისა და მეცნიერების სამინისტროს სსიპ &quot;ბავშვთა და ახალგაზრდობის ეროვნულ ცენტრსა&quot; და საქართველოს პრემიერ-მინისტრის.</div><a href=""><img src="images/slidermore.png"> ვრცლად</a>
-            </article>
+          <div class="item" data-bg="images/sliderimg.png">
+            <div class="slicers"></div>
+            <div class="cont">
+              <div class="wrapper">
+                <article>
+                  <time><img src="images/calendar.png"> 14 თებერვალი, 2018</time>
+                  <h2>შეხვედრა მუნიციპალიტეტების წარმომადგენლებთან</h2>
+                  <div class="desc">3 აპრილს საქართველოს განათლებისა და მეცნიერების სამინისტროს სსიპ &quot;ბავშვთა და ახალგაზრდობის ეროვნულ ცენტრსა&quot; და საქართველოს პრემიერ-მინისტრის. შეხვედრა მუნიციპალიტეტების წარმომადგენლებთან', desc: '3 აპრილს საქართველოს განათლებისა და მეცნიერების სამინისტროს სსიპ &quot;ბავშვთა და ახალგაზრდობის ეროვნულ ცენტრსა&quot; და საქართველოს პრემიერ-მინისტრის.</div><a href=""><img src="images/slidermore.png"> ვრცლად</a>
+                </article>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -135,7 +160,7 @@
               <div class="desc">, desc: '3 აპრილს საქართველოს განათლებისა და მეცნიერების სამინისტროს სსიპ &quot;ბავშვთა და ახალგაზრდობის ეროვნულ ცენტრსა&quot; და საქართველოს პრემიერ-მინისტრის...</div><a href=""><img src="images/more2.png"> ვრცლად</a>
             </article>
             <article>
-              <div class="pic" style="background-image: url('images/sliderimg.png')"></div>
+              <div class="pic" style="background-image: url('https://www.gettyimages.ie/gi-resources/images/Homepage/Hero/UK/CMS_Creative_164657191_Kingfisher.jpg')"></div>
               <time><img src="images/calendar2.png"> 14 თებერვალი, 2018</time>
               <h2>შეხვედრა მუნიციპალიტეტების წარმომადგენლებთან</h2>
               <div class="desc">რილს საქართველოს განათლებისა და მეცნიერების სამინისტროს სსიპ &quot;ბავშვთა და ახალგაზრდობის ეროვნულ ცენტრსა&quot; და საქართველოს პრემიერ-მინისტრის...</div><a href=""><img src="images/more2.png"> ვრცლად</a>
@@ -256,6 +281,7 @@
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/jsCalendar.min.js"></script>
     <script src="js/jsCalendar.lang.template.js"></script>
+    <script src="js/effectus.js"></script>
     <script src="js/main.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC19mKw2GLaSiu51XX_BC6Mswbcv85FT6k&amp;callback=initMap" async defer></script>
   </body>
