@@ -2,28 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eae2f413-7056-4bef-97a3-723be38e6775" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/js/effectus.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/debuleba.html" beforeDir="false" afterPath="$PROJECT_DIR$/debuleba.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/index.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/info.html" beforeDir="false" afterPath="$PROJECT_DIR$/info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/effectus.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/effectus.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/effectus.ts" beforeDir="false" afterPath="$PROJECT_DIR$/js/effectus.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layout.pug" beforeDir="false" afterPath="$PROJECT_DIR$/layout.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/menegment.html" beforeDir="false" afterPath="$PROJECT_DIR$/menegment.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/news.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/newsinner.html" beforeDir="false" afterPath="$PROJECT_DIR$/newsinner.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/photogallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/photogallery.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/photogalleryinner.html" beforeDir="false" afterPath="$PROJECT_DIR$/photogalleryinner.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/struqture.html" beforeDir="false" afterPath="$PROJECT_DIR$/struqture.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks.html" beforeDir="false" afterPath="$PROJECT_DIR$/tasks.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/videogallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/videogallery.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/videogalleryinner.html" beforeDir="false" afterPath="$PROJECT_DIR$/videogalleryinner.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,44 +24,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="effectus.ts" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/effectus.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="78" column="57" selection-start-line="78" selection-start-column="57" selection-end-line="78" selection-end-column="57" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.pug" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.pug">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="4" column="600" selection-start-line="4" selection-start-column="600" selection-end-line="4" selection-end-column="600" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/main.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="480" column="19" lean-forward="true" selection-start-line="480" selection-start-column="19" selection-end-line="480" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="main.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/main.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+            <state relative-caret-position="306">
+              <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="effectus.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/effectus.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="25" column="122" selection-start-line="25" selection-start-column="122" selection-end-line="25" selection-end-column="122" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/main.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="448">
+              <caret line="478" column="27" selection-start-line="478" selection-start-column="27" selection-end-line="478" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -95,7 +67,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>font-family: &quot;BPG Nateli&quot;;</find>
       <find>eventC</find>
       <find>მუნიციპალიტეტიებისწარმომადგენლ</find>
       <find>sec</find>
@@ -125,6 +96,7 @@
       <find>html</find>
       <find>soci</find>
       <find>mainCarouselu</find>
+      <find>resize</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -165,10 +137,10 @@
         <option value="$PROJECT_DIR$/../ffff/asdasd.html" />
         <option value="$PROJECT_DIR$/../kk/index.html" />
         <option value="$PROJECT_DIR$/layout.pug" />
-        <option value="$PROJECT_DIR$/js/main.ts" />
         <option value="$PROJECT_DIR$/index.pug" />
-        <option value="$PROJECT_DIR$/css/main.scss" />
+        <option value="$PROJECT_DIR$/js/main.ts" />
         <option value="$PROJECT_DIR$/js/effectus.ts" />
+        <option value="$PROJECT_DIR$/css/main.scss" />
       </list>
     </option>
   </component>
@@ -193,9 +165,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -212,12 +184,6 @@
               <item name="CYNC" type="b2602c69:ProjectViewProjectNode" />
               <item name="CYNC" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CYNC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CYNC" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="effectus.ts" type="620a8d5e:NestingTreeNode" />
             </path>
           </expand>
           <select />
@@ -353,7 +319,8 @@
       <workItem from="1532176436129" duration="9570000" />
       <workItem from="1532194328804" duration="1019000" />
       <workItem from="1532196688750" duration="26000" />
-      <workItem from="1532282583840" duration="4022000" />
+      <workItem from="1532282583840" duration="4133000" />
+      <workItem from="1532286799062" duration="254000" />
     </task>
     <task id="LOCAL-00001" summary="home page styles">
       <created>1529850168599</created>
@@ -544,11 +511,18 @@
       <option name="project" value="LOCAL" />
       <updated>1532195334326</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="effectus sliderus">
+      <created>1532286693272</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1532286693272</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107190000" />
+    <option name="totallyTimeSpent" value="107555000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -577,7 +551,7 @@
       <window_info id="Capture Tool" order="2" />
       <window_info anchor="bottom" id="TypeScript" order="8" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49875313" visible="true" weight="0.18550107" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49875313" visible="true" weight="0.18763326" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" sideWeight="0.50124687" side_tool="true" weight="0.18017058" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -611,7 +585,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="SHOW_DIRTY_RECURSIVELY" value="true" />
-    <MESSAGE value="camps" />
     <MESSAGE value="programs styles" />
     <MESSAGE value="home page" />
     <MESSAGE value="contact page" />
@@ -636,7 +609,8 @@
     <MESSAGE value="youtube remove controlls" />
     <MESSAGE value="brucianebi" />
     <MESSAGE value="social" />
-    <option name="LAST_COMMIT_MESSAGE" value="social" />
+    <MESSAGE value="effectus sliderus" />
+    <option name="LAST_COMMIT_MESSAGE" value="effectus sliderus" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/images/moreprograms.png">
@@ -902,17 +876,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="480" column="19" lean-forward="true" selection-start-line="480" selection-start-column="19" selection-end-line="480" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/main.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        <state relative-caret-position="306">
+          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
           <folding>
             <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
           </folding>
@@ -921,11 +888,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/effectus.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="78" column="57" selection-start-line="78" selection-start-column="57" selection-end-line="78" selection-end-column="57" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="119">
+          <caret line="25" column="122" selection-start-line="25" selection-start-column="122" selection-end-line="25" selection-end-column="122" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="478" column="27" selection-start-line="478" selection-start-column="27" selection-end-line="478" selection-end-column="27" />
         </state>
       </provider>
     </entry>

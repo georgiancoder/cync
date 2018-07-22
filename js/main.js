@@ -13,6 +13,9 @@ $(document).ready(function () {
     $("#prev").click(function () {
         effectus.prev();
     });
+    $(window).resize(function () {
+        effectus.init();
+    });
     $("button.play").click(function (event) {
         event.stopPropagation();
         event.stopImmediatePropagation();

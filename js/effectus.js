@@ -77,12 +77,3 @@ var EffectusSliderus = /** @class */ (function () {
     };
     return EffectusSliderus;
 }());
-// let es = new EffectusSliderus();
-// es.init();
-//
-// $("#next").click(function () {
-//     es.next();
-// });
-// $("#prev").click(function () {
-//     es.prev();
-// });

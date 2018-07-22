@@ -379,12 +379,13 @@ body main div.mainCarouselus {
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%; }
+    height: 100%;
+    display: none; }
     body main div.mainCarouselus .item.active {
       display: block;
       z-index: 3; }
     body main div.mainCarouselus .item.np {
-      z-index: 2; }
+      display: block; }
     body main div.mainCarouselus .item.effectus .slice {
       top: -100%;
       opacity: 0;
